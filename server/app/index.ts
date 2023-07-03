@@ -1,6 +1,8 @@
 import { log } from "console";
 import express from "express";
 import { connect } from "mongoose";
+import { red, green } from 'colors'
+import auth from './auth'
 
 const app = express()
 
@@ -12,22 +14,28 @@ export default class Application {
         this.port = port
         this.database = database
         this.configDatabase()
+        this.configModule()
         this.configServer()
     }
 
     async configDatabase() {
         try {
             await connect(this.database)
-            log(`database is connected`)
+            log(green(`database is connected`))
         }
         catch (error) {
-            log(error)
+            log(red(`${error}`))
         }
+    }
+
+    configModule(){
+        app.use("/auth", auth)
     }
 
 
 
+
     configServer() {
-        app.listen(this.port, () => log(`server run on port ${this.port}`))
+        app.listen(this.port, () => log(green(`server run on port ${this.port}`)))
     }
 }
