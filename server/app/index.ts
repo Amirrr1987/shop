@@ -13,9 +13,14 @@ export default class Application {
     constructor({ port, database }: { port: number, database: string }) {
         this.port = port
         this.database = database
+        this.configBeforeMiddleware()
         this.configDatabase()
         this.configModule()
         this.configServer()
+    }
+
+    configBeforeMiddleware() {
+        app.use(express.json())
     }
 
     async configDatabase() {
@@ -28,8 +33,8 @@ export default class Application {
         }
     }
 
-    configModule(){
-        app.use("/auth", auth)
+    configModule() {
+        app.use("/api/v1/auth", auth)
     }
 
 
