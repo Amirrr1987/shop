@@ -4,7 +4,7 @@ import { connect } from "mongoose";
 import { red, green } from 'colors'
 import auth from './auth'
 import products from './products'
-
+import cors from 'cors';
 const app = express()
 
 
@@ -21,6 +21,7 @@ export default class Application {
     }
 
     configBeforeMiddleware() {
+        app.use(cors())
         app.use(express.json())
     }
 
