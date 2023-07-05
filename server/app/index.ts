@@ -3,6 +3,7 @@ import express from "express";
 import { connect } from "mongoose";
 import { red, green } from 'colors'
 import auth from './auth'
+import products from './products'
 
 const app = express()
 
@@ -35,6 +36,7 @@ export default class Application {
 
     configModule() {
         app.use("/api/v1/auth", auth)
+        app.use("/api/v1/products", products)
     }
 
 
