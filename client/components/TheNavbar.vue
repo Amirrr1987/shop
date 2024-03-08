@@ -1,5 +1,5 @@
 <template>
-  <UHorizontalNavigation class="bg-red" :links="links" :ui="config" />
+  <UHorizontalNavigation class="bg-red shadow" :links="links" :ui="config" />
 </template>
 <script setup lang="ts">
 const links = [
@@ -8,16 +8,13 @@ const links = [
     icon: "i-heroicons-home",
     to: "/",
   },
+
   {
-    label: "About",
-    icon: "i-heroicons-user",
-    to: "/about",
-  },
-  {
-    label: "Shop",
+    label: "products",
     icon: "i-heroicons-building-storefront",
-    to: "/shop",
+    to: "/products",
   },
+
   {
     label: "Contact",
     icon: "i-heroicons-phone",
