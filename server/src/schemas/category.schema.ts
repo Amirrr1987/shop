@@ -8,7 +8,8 @@ export class Category {
   @Prop()
   title: string;
   caption: string;
-  category_id: string[];
+  parent_id: string[];
+  child_id: string[];
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);
