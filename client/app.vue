@@ -5,9 +5,12 @@
 </template>
 <script setup lang="ts">
 useSeoMeta({
-  title: "Nuxt shop",
+  title: "biinoise",
   description: "The Intuitive Vue Framework.",
-  colorScheme: "",
-  applicationName: "shop",
 });
 </script>
+<style>
+#__nuxt{
+  @apply bg-gray-100;
+}
+</style>

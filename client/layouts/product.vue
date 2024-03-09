@@ -57,8 +57,13 @@ const links = [
     icon: "i-heroicons-square-3-stack-3d",
     to: "/products",
   },
+  {
+    label: route.params.category,
+    icon: "i-heroicons-square-3-stack-3d",
+    to: route.path,
+  },
 ];
-console.log(route.path);
+console.log(route);
 
 const people = [
   "Wade Cooper",

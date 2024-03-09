@@ -3,19 +3,8 @@
     <div class="bg-primary py-12">
       <UContainer>
         <p class="text-white">
-          اینجا فروشگاه حضوری و مجازی بی نویز هستش . ما در مجموعه همه محصولات
-          کمپانی جی بی ال و هارمن کاردن رو موجود داریم و از این نظر با اعتماد به
-          نفس کامل میتونیم بگیم که بزرگترین بانک کامل این دو برند در کل ایران
-          هستیم . شما میتونید قبل از خرید به فروشگاه های حضوریمون در پاساژ اپال
-          و بازار موبایل ایران بیاید و کالای مورد نظرتون رو تست کنید ، با بقیه
-          مقایسه کنید و بعد خرید کنید ، اگر هم شهرستان هستید و امکان آمدن به
-          فروشگاه رو ندارید فقط کافیه که تو سایت ثبت نام و بعدش ثبت سفارش کنید
-          .همه هدفون ها و اسپیکرهای فروشگاه اصلی هستن و از این بابت ضمانت محکمی
-          بهتون داده میشه . در ضمن قیمت همه کالاهامون در کل ایران معمولاً
-          بهترینه و با منش و هدف سودکمتر = فروش بیشتر به کارمون ادامه میدیم .
-          مجموعه ما از سال ۱۳۹۸ با شعار « با بی نویز میشه بهتر شنید » شروع به
-          کار کرده . اگر دوست دارید lifestyle مغازه رو دنبال کنید پیج اینستاگرام
-          رو فالو کنید.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque quae laudantium vitae, asperiores fugiat veniam explicabo dicta provident nihil quibusdam magni animi voluptates sequi molestiae! Repellat quod sunt odio?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum! Dolores quia eos facere autem fugiat voluptatum corporis ratione aperiam fugit deserunt suscipit vitae sapiente iusto itaque dolorem, culpa laboriosam!
         </p>
       </UContainer>
     </div>

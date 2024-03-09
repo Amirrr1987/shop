@@ -10,7 +10,7 @@
   </section>
   <section class="py-12">
     <UContainer :ui="uiContainer">
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid md:grid-cols-2 gap-4">
         <div class="">
           <div class="mb-6">
             <h3 class="text-2xl capitalize font-medium mb-2">tilte</h3>
@@ -30,7 +30,7 @@
             </UFormGroup>
 
             <UFormGroup label="Password" name="password">
-              <UInput v-model="state.password" type="password" />
+              <UInput v-model="state.password" type="password" autocomplete />
             </UFormGroup>
 
             <UButton type="submit"> Submit </UButton>

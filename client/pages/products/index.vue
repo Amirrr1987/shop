@@ -3,7 +3,7 @@
     <template #header>
       <img
         class="w-full h-40 object-cover"
-        src=""
+        :src="item.img"
         alt=""
       />
     </template>

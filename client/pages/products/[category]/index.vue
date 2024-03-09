@@ -1,9 +1,9 @@
 <template>
-  <UCard v-for="item in products" :ui="uiCard">
+  <UCard v-for="item in productStore.products" :ui="uiCard">
     <template #header>
       <img
         class="w-full h-40 object-cover"
-        src="https://picsum.photos/300/176?random=1"
+        :src="item.img"
         alt=""
       />
     </template>
@@ -28,7 +28,5 @@ import { uiCard } from "~/utils";
 definePageMeta({
   layout: "product",
 });
-const products = reactive([
-
-]);
+const productStore = useProductStore();
 </script>
