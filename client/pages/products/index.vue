@@ -1,32 +1,37 @@
 <template>
-  <UCard v-for="item in productStore.products" :ui="uiCard" :key="item.id">
-    <template #header>
-      <img
-        class="w-full h-40 object-cover"
-        :src="item.img"
-        alt=""
-      />
-    </template>
-    <RouterLink
-      :to="`products/${item.id}`"
-      class="text-2xl capitalize font-medium mb-2"
-      >title</RouterLink
+  <TheSection>
+    <div
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4"
     >
-    <p class="text-sm text-gray-500">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, minus.
-    </p>
-
-    <template #footer>
-      <UButton>
-        <UIcon name="i-heroicons-home" />
-      </UButton>
-    </template>
-  </UCard>
+      <UCard v-for="item in productStore.products" :ui="uiConfigStore.card">
+        <template #header>
+          <img
+            class="w-full"
+            :src="item.img"
+            :title="item.title"
+            :alt="item.title"
+          />
+        </template>
+        <ULink @click="goToDetail(item._id)">
+          <h3>
+            {{ item.title }}
+          </h3>
+        </ULink>
+        <p>
+          {{ item.caption }}
+        </p>
+      </UCard>
+    </div>
+  </TheSection>
 </template>
 <script setup lang="ts">
-import { uiCard } from "~/utils";
-definePageMeta({
-  layout: "product",
-});
+const categoryStore = useCategoryStore();
 const productStore = useProductStore();
+const uiConfigStore = useUiConfigStore();
+
+const goToDetail = (id: string) => {
+  const item = productStore.findOne(id);
+  console.log("🚀 ~ goToDetail ~ item:", item);
+  console.log(categoryStore.categories);
+};
 </script>

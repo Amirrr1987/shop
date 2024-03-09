@@ -5,6 +5,12 @@ export const useUiConfigStore = defineStore("uiConfig", () => {
   const container = reactive({
     constrained: "!container",
   });
+  const card = reactive({
+    base: "overflow-hidden",
+    header: {
+      padding: "",
+    },
+  });
 
-  return { container };
+  return { container, card };
 });

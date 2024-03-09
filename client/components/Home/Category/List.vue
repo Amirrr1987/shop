@@ -1,7 +1,11 @@
 <template>
   <section class="py-12">
     <UContainer :ui="{ ...uiConfigStore.container, ...uiConfig.container }">
-      <div v-for="category in productStore.categories" class="flex flex-col items-center">
+      <ULink
+        @click="goToCategory(category)"
+        v-for="category in productStore.categories"
+        class="flex flex-col items-center"
+      >
         <img
           class="w-1/2 mx-auto"
           :src="category.img"
@@ -9,7 +13,7 @@
           :alt="category.label"
         />
         <h3>{{ category.label }}</h3>
-      </div>
+      </ULink>
     </UContainer>
   </section>
 </template>
@@ -22,4 +26,11 @@ const uiConfig = reactive({
     base: "grid grid-cols-4 gap-4 md:flex",
   },
 });
+const router = useRouter();
+const goToCategory = (category: any) => {
+  router.push({
+    name: "products-category",
+    params: { category: category.category },
+  });
+};
 </script>
