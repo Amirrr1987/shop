@@ -6,8 +6,7 @@
         <th scope="col">_id</th>
         <th scope="col">title</th>
         <th scope="col">description</th>
-        <th scope="col">parent</th>
-        <th scope="col">child</th>
+        <th scope="col">children</th>
       </tr>
     </thead>
     <tbody>
@@ -16,8 +15,7 @@
         <td>{{ item._id }}</td>
         <td>{{ item.title }}</td>
         <td>{{ item.description }}</td>
-        <td>{{ item.parent }}</td>
-        <td>{{ item.description }}</td>
+        <td>{{ item.children }}</td>
       </tr>
     </tbody>
   </table>

@@ -8,10 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/shop', {
-      autoIndex: true,
-      autoCreate: true,
-    }),
+    MongooseModule.forRoot('mongodb://localhost:27017/shop'),
     ProductsModule,
     UsersModule,
     CategoriesModule,

@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import { addCategoriesService, getCategoriesService } from '@/services/categoryService'
 import type { Category } from '@/types/CategoryModel'
@@ -24,6 +24,11 @@ export const useCategoryStore = defineStore('category', () => {
       console.log('🚀 ~ getCategories ~ error:', error)
     }
   }
+  const findOne = (id: string) => {
+    const itemIndex = categories.value.findIndex((item) => item._id === id)
+    if (!itemIndex) return
+    return categories.value[itemIndex]
+  }
 
-  return { category, categories, getCategories, addCategories }
+  return { category, categories, getCategories, addCategories, findOne }
 })

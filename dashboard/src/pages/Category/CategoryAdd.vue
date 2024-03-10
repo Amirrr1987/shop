@@ -1,15 +1,15 @@
 <template>
   <form class="p-4" @submit.prevent="categoryStore.addCategories">
     <div class="mb-3">
-      <label for="label" class="form-label">Label</label>
+      <label for="label" class="form-label">Title</label>
       <input
         type="text"
         class="form-control"
-        id="label"
-        aria-describedby="labelHelp"
-        v-model="categoryStore.category.label"
+        id="title"
+        aria-describedby="titleHelp"
+        v-model="categoryStore.category.title"
       />
-      <div id="labelHelp" class="form-text">We'll never share your label with anyone else.</div>
+      <div id="titleHelp" class="form-text">We'll never share your label with anyone else.</div>
     </div>
 
     <div class="mb-3">
@@ -40,35 +40,20 @@
     </div>
 
     <div class="mb-3">
-      <label for="parent" class="form-label">Parent</label>
+      <label for="children" class="form-label">children</label>
       <select
         class="form-select"
-        aria-label="parentHelp"
-        aria-describedby="parentHelp"
-        id="parent"
-        v-model="categoryStore.category.parent"
-      >
-        <option selected>Open this select menu</option>
-        <option :value="item" v-for="item in categoryStore.categories" :key="item._id">{{ item.label }}</option>
-      </select>
-      <div id="parentHelp" class="form-text">We'll never share your label with anyone else.</div>
-    </div>
-
-    <div class="mb-3">
-      <label for="parent" class="form-label">Child</label>
-      <select
-        class="form-select"
-        aria-label="parentHelp"
-        aria-describedby="parentHelp"
-        id="parent"
-        v-model="categoryStore.category.child"
+        aria-label="childrenHelp"
+        aria-describedby="childrenHelp"
+        id="children"
+        v-model="categoryStore.category.children"
       >
         <option selected>Open this select menu</option>
         <option :value="item" v-for="item in categoryStore.categories" :key="item._id">
-          {{ item.label }}
+          {{ item.title }}
         </option>
       </select>
-      <div id="parentHelp" class="form-text">We'll never share your label with anyone else.</div>
+      <div id="childrenHelp" class="form-text">We'll never share your label with anyone else.</div>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

@@ -15,9 +15,11 @@
     <div class="container mx-auto">
       <ul class="flex gap-x-4">
         <li><ULink to="/">Home</ULink></li>
-        <li v-for="item in categoryStore.categories" :key="item._id">
-          <ULink :to="`/products/${item.label}`"> {{ item.label }}</ULink>
-        </li>
+        <template v-for="item in categoryStore.categories" :key="item._id">
+          <li v-if="!item.children || item.children.length > 0">
+            <ULink :to="`/products/${item.value}`"> {{ item.title }}</ULink>
+          </li>
+        </template>
         <li><ULink to="/contact">Contact</ULink></li>
       </ul>
     </div>

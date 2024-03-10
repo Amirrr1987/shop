@@ -1,7 +1,7 @@
 export interface Category {
   _id: string;
-  label: string;
+  title: string;
+  value: string;
   description: string;
-  parent: Category;
-  child: Category[];
+  children: string[];
 }

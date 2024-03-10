@@ -1,4 +1,8 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  ConflictException,
+} from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { CreateCategoryDto } from './dto/create-category.dto';
@@ -12,8 +16,15 @@ export class CategoriesService {
   ) {}
 
   async create(createCategoryDto: CreateCategoryDto): Promise<Category> {
-    const createdCategory = new this.categoryModel(createCategoryDto);
-    return await createdCategory.save();
+    const exists = await this.categoryModel.findOne({
+      value: createCategoryDto.value,
+    });
+    if (exists) {
+      throw new ConflictException('Category already exists');
+    }
+    // HERE I have error
+    const res = new this.categoryModel(createCategoryDto);
+    return await res.save();
   }
 
   async findAll(): Promise<Category[]> {
