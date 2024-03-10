@@ -13,7 +13,7 @@ export class CategoriesService {
 
   async create(createCategoryDto: CreateCategoryDto): Promise<Category> {
     const createdCategory = new this.categoryModel(createCategoryDto);
-    return createdCategory.save();
+    return await createdCategory.save();
   }
 
   async findAll(): Promise<Category[]> {

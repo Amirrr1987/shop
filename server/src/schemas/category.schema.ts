@@ -5,11 +5,13 @@ export type CategoryDocument = Category & Document;
 
 @Schema()
 export class Category {
-  @Prop()
-  title: string;
-  caption: string;
-  parent_id: string[];
-  child_id: string[];
+  @Prop({ required: true, unique: true })
+  label: string;
+  @Prop({ required: true, unique: true })
+  value: string;
+  description: string;
+  parent?: Category;
+  child?: Category[];
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);
