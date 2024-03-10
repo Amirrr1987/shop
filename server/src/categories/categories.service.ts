@@ -8,7 +8,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { UpdateCategoryDto } from './dto/update-category.dto';
 import { Category, CategoryDocument } from '../schemas/category.schema';
-
+import { omit } from 'lodash';
 @Injectable()
 export class CategoriesService {
   constructor(
@@ -22,7 +22,6 @@ export class CategoriesService {
     if (exists) {
       throw new ConflictException('Category already exists');
     }
-    // HERE I have error
     const res = new this.categoryModel(createCategoryDto);
     return await res.save();
   }

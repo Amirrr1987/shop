@@ -3,5 +3,6 @@ export interface Category {
   value: string
   title: string
   description: string
-  children: string[]
+  parent_id?: string
+  children_id?: string[]
 }

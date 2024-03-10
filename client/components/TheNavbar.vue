@@ -16,8 +16,13 @@
       <ul class="flex gap-x-4">
         <li><ULink to="/">Home</ULink></li>
         <template v-for="item in categoryStore.categories" :key="item._id">
-          <li v-if="!item.children || item.children.length > 0">
-            <ULink :to="`/products/${item.value}`"> {{ item.title }}</ULink>
+          <li v-if="!item.parent_id">
+            <ULink :to="`/products/${item.value}`"> 
+              {{ item.title }}
+              <ul v-for="single in item">
+                
+              </ul>
+            </ULink>
           </li>
         </template>
         <li><ULink to="/contact">Contact</ULink></li>

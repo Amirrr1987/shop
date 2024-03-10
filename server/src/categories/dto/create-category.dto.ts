@@ -1,9 +1,4 @@
-import {
-  IsString,
-  IsOptional,
-  ValidateNested,
-  IsNotEmpty,
-} from 'class-validator';
+import { IsString, IsNotEmpty, IsOptional } from 'class-validator';
 
 export class CreateCategoryDto {
   @IsNotEmpty()
@@ -18,7 +13,12 @@ export class CreateCategoryDto {
   description?: string;
 
   @IsOptional()
-  children?: string[];
+  @IsString()
+  children_id?: string[];
+
+  @IsOptional()
+  @IsString()
+  parent_id?: string;
 }
 
 // export class CreateCategoryDto extends Category {}

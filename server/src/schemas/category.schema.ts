@@ -13,9 +13,10 @@ export class Category {
   description: string;
   @Prop({
     type: [{ type: MongooseSchema.Types.ObjectId, ref: 'Category' }],
-    default: undefined,
   })
-  children?: string[];
+  children_id: string[];
+  @Prop({ type: MongooseSchema.Types.ObjectId, ref: 'Category' })
+  parent_id: string;
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);

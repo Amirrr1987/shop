@@ -1,15 +1,17 @@
 import type { Category } from '@/types/CategoryModel'
 import { _axios } from './axios'
 
-export const getCategoriesService = async () => {
+const getAll = async () => {
   return await _axios.get('/categories')
 }
-export const addCategoriesService = async (data: Category) => {
+const addOne = async (data: Category) => {
   return await _axios.post('/categories', data)
 }
-export const updateCategoriesService = async (id: string, data: Category) => {
-  return await _axios.patch(`/categories/${id}`, data)
+const updateOne = async (category: Category) => {
+  return await _axios.patch(`/categories/${category._id}`, category)
 }
-export const deleteCategoriesService = async (id: string) => {
+const deleteOne = async (id: string) => {
   return await _axios.delete(`/categories/${id}`)
 }
+
+export const categoryService = { getAll, addOne, updateOne, deleteOne }

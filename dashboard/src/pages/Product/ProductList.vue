@@ -19,7 +19,7 @@
         <td>{{ item.children_id }}</td>
         <td class="d-flex gap-2">
           <button class="btn btn-info">edit</button>
-          <button class="btn btn-danger" @click="deleteHandler(item._id)">delete</button>
+          <button class="btn btn-danger" @click="categoryStore.deleteOne(item._id),categoryStore.getAll()">delete</button>
         </td>
       </tr>
     </tbody>
@@ -30,9 +30,4 @@ import { onMounted } from 'vue'
 import { useCategoryStore } from '@/stores/categoryStore'
 const categoryStore = useCategoryStore()
 onMounted(async () => await categoryStore.getAll())
-
-const deleteHandler = async (id: string) => {
-  await categoryStore.deleteOne(id)
-  await categoryStore.getAll()
-}
 </script>

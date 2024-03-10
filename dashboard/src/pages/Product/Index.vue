@@ -1,0 +1,8 @@
+<template>
+  <div class="card">
+    <RouterView />
+  </div>
+</template>
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
