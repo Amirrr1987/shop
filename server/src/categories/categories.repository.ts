@@ -14,14 +14,6 @@ export class CategoriesRepository {
   public async create(dto: CreateCategoryDTO): Promise<Category> {
     return await this.categoryModel.create(dto);
   }
-  public async addChildren(
-    id: string,
-    dto: CreateCategoryDTO,
-  ): Promise<Category> {
-    // const parent = new this.categoryModel(dto);
-    // console.log('🚀 ~ CategoriesRepository ~ addChildren ~ parent:', parent);
-    return (await {}) as Category;
-  }
 
   public async findAll(): Promise<Category[]> {
     return await this.categoryModel.find().exec();
@@ -30,6 +22,7 @@ export class CategoriesRepository {
   public async findOneById(id: string): Promise<Category> {
     return await this.categoryModel.findById(id).exec();
   }
+
   public async findOneByValue(
     query: Partial<UpdateCategoryDTO>,
   ): Promise<Category> {

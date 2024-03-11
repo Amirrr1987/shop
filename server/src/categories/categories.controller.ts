@@ -20,8 +20,6 @@ export class CategoriesController {
   @Post()
   @UsePipes(new ZodValidationPipe(CreateCategoryDTO))
   create(@Body() dto: CreateCategoryDTO) {
-    console.log('🚀 ~ CategoriesController ~ create ~ dto:', dto);
-
     return this.categoriesService.create(dto);
   }
 
@@ -32,12 +30,12 @@ export class CategoriesController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    // return this.categoriesService.findOneById(id);
+    return this.categoriesService.findOneById(id);
   }
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() dto: UpdateCategoryDTO) {
-    // return this.categoriesService.updateOneById(id, dto);
+    return this.categoriesService.updateOneById(id, dto);
   }
 
   @Delete(':id')

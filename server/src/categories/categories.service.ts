@@ -7,7 +7,6 @@ import { CreateCategoryDTO, SuccessResponse } from './dto/create-category.dto';
 import { UpdateCategoryDTO } from './dto/update-category.dto';
 import { Category } from '../schemas/category.schema';
 import { CategoriesRepository } from './categories.repository';
-import { isNull } from 'lodash';
 import { ResponseService } from 'src/response/response.service';
 
 @Injectable()
@@ -19,7 +18,6 @@ export class CategoriesService {
 
   public async create(dto: CreateCategoryDTO): Promise<SuccessResponse> {
     await this.findOneByValue({ value: dto.value });
-
     const data = await this.categoriesRepository.create(dto);
     return this.responseService.successCreateOne(data, 'category');
   }
@@ -28,7 +26,9 @@ export class CategoriesService {
     query: Partial<UpdateCategoryDTO>,
   ): Promise<SuccessResponse> {
     const category = await this.categoriesRepository.findOneByValue(query);
-    if (category) throw new ConflictException('Category already exists');
+    if (category) {
+      throw new ConflictException('Category already exists');
+    }
     return category;
   }
 
@@ -39,8 +39,9 @@ export class CategoriesService {
 
   public async findOneById(id: string): Promise<Category> {
     const category = await this.categoriesRepository.findOneById(id);
-    if (!category)
+    if (!category) {
       throw new NotFoundException(`Category with id ${id} not found`);
+    }
     return category;
   }
 
@@ -49,23 +50,17 @@ export class CategoriesService {
     dto: UpdateCategoryDTO,
   ): Promise<SuccessResponse> {
     const category = await this.categoriesRepository.updateOneById(id, dto);
-    if (!category)
+    if (!category) {
       throw new NotFoundException(`Category with id ${id} not found`);
-
+    }
     return this.responseService.successUpdateOne(id, 'category');
   }
 
   public async removeOneById(id: string): Promise<SuccessResponse> {
     const category = await this.categoriesRepository.removeOneById(id);
-    if (!category)
-      throw new NotFoundException(`Category with id ${id} not found`);
-    // return this.successResponse(201, category, 'category is deleted');
-
-    return this.responseService.successDeleteOne(id, 'category');
-  }
-  public notFoundException(id, item) {
-    if (isNull(item)) {
+    if (!category) {
       throw new NotFoundException(`Category with id ${id} not found`);
     }
+    return this.responseService.successDeleteOne(id, 'category');
   }
 }
