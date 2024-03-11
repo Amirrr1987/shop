@@ -5,18 +5,14 @@ export type CategoryDocument = Category & Document;
 
 @Schema()
 export class Category {
-  @Prop()
+  @Prop({ required: true, unique: true, default: '' })
   value: string;
-  @Prop()
+  @Prop({ required: true, default: '' })
   title: string;
-  @Prop()
-  description: string;
-  @Prop({
-    type: [{ type: MongooseSchema.Types.ObjectId, ref: 'Category' }],
-  })
-  children_id: string[];
-  @Prop({ type: MongooseSchema.Types.ObjectId, ref: 'Category' })
-  parent_id: string;
+  @Prop({})
+  description?: string;
+  @Prop({ required: false, type: MongooseSchema.Types.ObjectId })
+  parent_id?: string;
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);

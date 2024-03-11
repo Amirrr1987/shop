@@ -11,6 +11,9 @@ dependencies:
   bootstrap:
     specifier: ^5.3.3
     version: 5.3.3(@popperjs/core@2.11.8)
+  console-log-advanced:
+    specifier: ^1.5.0
+    version: 1.5.0
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
@@ -955,6 +958,10 @@ packages:
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
+
+  /console-log-advanced@1.5.0:
+    resolution: {integrity: sha512-PH3iDBu3AWUnCaYTycGwaNjuxr/lGr+oxmYsqiZ67E10hKZkx/Ervxy4oxZAGPke8ULeJoW2aTP2mi/FelnMmA==}
+    dev: false
 
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}

@@ -3,61 +3,69 @@ import {
   NotFoundException,
   ConflictException,
 } from '@nestjs/common';
-import { Model } from 'mongoose';
-import { InjectModel } from '@nestjs/mongoose';
-import { CreateCategoryDto } from './dto/create-category.dto';
-import { UpdateCategoryDto } from './dto/update-category.dto';
-import { Category, CategoryDocument } from '../schemas/category.schema';
-import { omit } from 'lodash';
+import { CreateCategoryDTO, SuccessResponse } from './dto/create-category.dto';
+import { UpdateCategoryDTO } from './dto/update-category.dto';
+import { Category } from '../schemas/category.schema';
+import { CategoriesRepository } from './categories.repository';
+import { isNull } from 'lodash';
+import { ResponseService } from 'src/response/response.service';
+
 @Injectable()
 export class CategoriesService {
   constructor(
-    @InjectModel(Category.name) private categoryModel: Model<CategoryDocument>,
+    private categoriesRepository: CategoriesRepository,
+    private responseService: ResponseService,
   ) {}
 
-  async create(createCategoryDto: CreateCategoryDto): Promise<Category> {
-    const exists = await this.categoryModel.findOne({
-      value: createCategoryDto.value,
-    });
-    if (exists) {
-      throw new ConflictException('Category already exists');
-    }
-    const res = new this.categoryModel(createCategoryDto);
-    return await res.save();
+  public async create(dto: CreateCategoryDTO): Promise<SuccessResponse> {
+    await this.findOneByValue({ value: dto.value });
+
+    const data = await this.categoriesRepository.create(dto);
+    return this.responseService.successCreateOne(data, 'category');
   }
 
-  async findAll(): Promise<Category[]> {
-    return this.categoryModel.find().exec();
-  }
-
-  async findOne(id: string): Promise<Category> {
-    const category = await this.categoryModel.findById(id).exec();
-    if (!category) {
-      throw new NotFoundException(`Category with id ${id} not found`);
-    }
+  protected async findOneByValue(
+    query: Partial<UpdateCategoryDTO>,
+  ): Promise<SuccessResponse> {
+    const category = await this.categoriesRepository.findOneByValue(query);
+    if (category) throw new ConflictException('Category already exists');
     return category;
   }
 
-  async update(
-    id: string,
-    updateCategoryDto: UpdateCategoryDto,
-  ): Promise<Category> {
-    const updatedCategory = await this.categoryModel
-      .findByIdAndUpdate(id, updateCategoryDto, { new: true })
-      .exec();
-    if (!updatedCategory) {
-      throw new NotFoundException(`Category with id ${id} not found`);
-    }
-    return updatedCategory;
+  public async findAll(): Promise<SuccessResponse> {
+    const data = await this.categoriesRepository.findAll();
+    return this.responseService.successFindAll(data, 'category');
   }
 
-  async remove(id: string): Promise<Category> {
-    const removedCategory = await this.categoryModel
-      .findByIdAndDelete(id)
-      .exec();
-    if (!removedCategory) {
+  public async findOneById(id: string): Promise<Category> {
+    const category = await this.categoriesRepository.findOneById(id);
+    if (!category)
+      throw new NotFoundException(`Category with id ${id} not found`);
+    return category;
+  }
+
+  public async updateOneById(
+    id: string,
+    dto: UpdateCategoryDTO,
+  ): Promise<SuccessResponse> {
+    const category = await this.categoriesRepository.updateOneById(id, dto);
+    if (!category)
+      throw new NotFoundException(`Category with id ${id} not found`);
+
+    return this.responseService.successUpdateOne(id, 'category');
+  }
+
+  public async removeOneById(id: string): Promise<SuccessResponse> {
+    const category = await this.categoriesRepository.removeOneById(id);
+    if (!category)
+      throw new NotFoundException(`Category with id ${id} not found`);
+    // return this.successResponse(201, category, 'category is deleted');
+
+    return this.responseService.successDeleteOne(id, 'category');
+  }
+  public notFoundException(id, item) {
+    if (isNull(item)) {
       throw new NotFoundException(`Category with id ${id} not found`);
     }
-    return removedCategory;
   }
 }

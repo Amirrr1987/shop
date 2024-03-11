@@ -21,10 +21,9 @@ _axios.interceptors.request.use(
   }
 )
 _axios.interceptors.response.use(
-  (response) => response,
+  (response) => response.data,
   (error) => {
     const data: any = (error as AxiosError).response?.data
-    console.log('🚀 ~ data:', data.message)
     return Promise.reject(data)
   }
 )

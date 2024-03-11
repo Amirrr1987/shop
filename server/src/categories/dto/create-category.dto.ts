@@ -1,24 +1,13 @@
-import { IsString, IsNotEmpty, IsOptional } from 'class-validator';
+import { createZodDto } from 'nestjs-zod';
+import { z } from 'nestjs-zod/z';
 
-export class CreateCategoryDto {
-  @IsNotEmpty()
-  @IsString()
-  value: string;
+const createCategoryDTOSchema = z.object({
+  title: z.string(),
+  value: z.string(),
+  description: z.string().optional(),
+  parent_id: z.string().optional(),
+});
 
-  @IsString()
-  title: string;
+export class CreateCategoryDTO extends createZodDto(createCategoryDTOSchema) {}
 
-  @IsOptional()
-  @IsString()
-  description?: string;
-
-  @IsOptional()
-  @IsString()
-  children_id?: string[];
-
-  @IsOptional()
-  @IsString()
-  parent_id?: string;
-}
-
-// export class CreateCategoryDto extends Category {}
+export interface SuccessResponse {}
