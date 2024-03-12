@@ -11,17 +11,11 @@ export class ResponseService {
       success: true,
     };
   }
-  public successFindOne(
-    status: number,
-    id: string,
-    data: any,
-    message: string,
-  ) {
+  public successFindOne(id: string, data: any, message: string) {
     return {
-      id,
       data,
-      message,
-      status,
+      message: `${message} width ${id} is find`,
+      status: 200,
       success: true,
     };
   }

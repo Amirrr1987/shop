@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^1.6.7",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "console-log-advanced": "^1.5.0",
     "lodash": "^4.17.21",
     "pinia": "^2.1.7",

@@ -4,11 +4,6 @@ export interface Category {
   title: string
   description: string
   parent_id?: string
-  children_id?: string[]
 }
-export interface Req extends Omit<Category, 'title'> {}
-export interface Res extends Pick<Category, 'title'> {}
-
-const x: Res = {
-  
-}
+export interface Req extends Omit<Category, '_id'> {}
+export interface Res extends Category {}

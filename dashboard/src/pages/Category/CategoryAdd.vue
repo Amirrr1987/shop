@@ -1,5 +1,6 @@
 <template>
   <form class="p-4" @submit.prevent="submitHandler">
+    {{ categoryStore.category }}
     <div class="mb-3">
       <label for="label" class="form-label">Title</label>
       <input
@@ -56,17 +57,50 @@
       <div id="childrenHelp" class="form-text">We'll never share your label with anyone else.</div>
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" :disabled="categoryStore.isLoading">
+      <template v-if="categoryStore.isLoading">
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span role="status">Loading...</span>
+      </template>
+      <template v-else>
+        <!-- <template v-if="categoryId">Edit</template> -->
+        <!-- <template v-else>Submit</template> -->
+      </template>
+    </button>
   </form>
 </template>
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useCategoryStore } from '@/stores/categoryStore'
+import { useRoute, useRouter } from 'vue-router'
+
 const categoryStore = useCategoryStore()
-onMounted(async () => await categoryStore.getAll())
+const route = useRoute()
+const router = useRouter()
+
+// Create a computed property to watch route.params.id
+const routeParamsId = computed(() => route.params.id)
+
+watch(
+  () => route.name,
+  () => {
+    if (route.name === 'TheCategoryEdit') {
+      console.log(1)
+    }
+  }
+)
+
+onMounted(async () => {
+  await categoryStore.getAll()
+})
 
 const submitHandler = async () => {
-  await categoryStore.addOne()
+  if (categoryStore.isEdit) {
+    await categoryStore.updateOne()
+  } else {
+    await categoryStore.addOne()
+  }
   await categoryStore.getAll()
+  router.push({ name: 'TheCategoryList' })
 }
 </script>
