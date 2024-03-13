@@ -19,7 +19,7 @@ const router = createRouter({
           component: () => import('@/pages/Category/index.vue'),
           children: [
             {
-              path: 'list',
+              path: '',
               name: 'TheCategoryList',
               component: () => import('@/pages/Category/CategoryList.vue')
             },

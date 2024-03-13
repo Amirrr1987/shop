@@ -3,6 +3,8 @@ export interface Category {
   title: string;
   value: string;
   description: string;
-  children_id: string[];
-  parent_id: string
+  parent_id: string;
+}
+export interface Menu extends Category {
+  children: Menu[];
 }

@@ -10,6 +10,8 @@ export const useCategoryStore = defineStore('category', () => {
   const isEdit = ref<boolean>(false)
   const isLoading = ref<boolean>(false)
 
+  const resetCategory = () => (category.value = {} as Category)
+
   const getAll = async () => {
     try {
       const { data } = await categoryService.getAll()
@@ -86,6 +88,7 @@ export const useCategoryStore = defineStore('category', () => {
     deleteOne,
     updateOne,
     isEdit,
-    isLoading
+    isLoading,
+    resetCategory
   }
 })

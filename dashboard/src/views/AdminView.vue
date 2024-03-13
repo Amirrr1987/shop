@@ -37,7 +37,7 @@
           >
             <div class="accordion-body d-grid">
               <RouterLink to="/category/add" class="btn w-full"> Add </RouterLink>
-              <RouterLink to="/category/list" class="btn w-full"> List </RouterLink>
+              <RouterLink to="/category" class="btn w-full"> List </RouterLink>
             </div>
           </div>
         </div>

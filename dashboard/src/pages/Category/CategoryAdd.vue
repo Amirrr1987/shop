@@ -63,14 +63,14 @@
         <span role="status">Loading...</span>
       </template>
       <template v-else>
-        <!-- <template v-if="categoryId">Edit</template> -->
-        <!-- <template v-else>Submit</template> -->
+        <template v-if="routeParamsId">Edit</template>
+        <template v-else>Submit</template>
       </template>
     </button>
   </form>
 </template>
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, watch, watchEffect } from 'vue'
 import { useCategoryStore } from '@/stores/categoryStore'
 import { useRoute, useRouter } from 'vue-router'
 
@@ -78,17 +78,7 @@ const categoryStore = useCategoryStore()
 const route = useRoute()
 const router = useRouter()
 
-// Create a computed property to watch route.params.id
 const routeParamsId = computed(() => route.params.id)
-
-watch(
-  () => route.name,
-  () => {
-    if (route.name === 'TheCategoryEdit') {
-      console.log(1)
-    }
-  }
-)
 
 onMounted(async () => {
   await categoryStore.getAll()
