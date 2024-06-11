@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "https://cartrader-amirmaghami.netlify.app/*"
+  to = "/*"
+  status = 200
