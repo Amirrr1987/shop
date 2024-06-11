@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "https://cartrader-amirmaghami.netlify.app/*"
+  from = "https://shop-client-amirmaghami.netlify.app/*"
   to = "/*"
   status = 200
