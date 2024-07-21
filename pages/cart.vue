@@ -6,8 +6,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li><NuxtLink to="/">صفحه اصلی</NuxtLink></li>
-              <li>سبد خرید</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Cart</li>
             </ul>
           </div>
         </div>
@@ -18,7 +18,7 @@
   <!-- cart area start -->
   <div class="cart-main-area mtb-60px">
     <div class="container">
-      <h3 class="cart-page-title">سبد خرید شما</h3>
+      <h3 class="cart-page-title">Your cart items</h3>
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
           <form action="#">
@@ -26,12 +26,12 @@
               <table>
                 <thead>
                   <tr>
-                    <th>تصویر</th>
-                    <th>نام محصول</th>
-                    <th>قیمت</th>
-                    <th>تعداد</th>
-                    <th>جمع</th>
-                    <th>عملیات</th>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Until Price</th>
+                    <th>Qty</th>
+                    <th>Subtotal</th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -44,9 +44,9 @@
                           alt=""
                       /></a>
                     </td>
-                    <td class="product-name"><a href="#">عنوان محصول</a></td>
+                    <td class="product-name"><a href="#">Product Name</a></td>
                     <td class="product-price-cart">
-                      <span class="amount">50.000 تومان</span>
+                      <span class="amount">$60.00</span>
                     </td>
                     <td class="product-quantity">
                       <div class="cart-plus-minus">
@@ -58,7 +58,7 @@
                         />
                       </div>
                     </td>
-                    <td class="product-subtotal">50.000 تومان</td>
+                    <td class="product-subtotal">$70.00</td>
                     <td class="product-remove">
                       <a href="#"><i class="icon-pencil"></i></a>
                       <a href="#"><i class="icon-close"></i></a>
@@ -73,9 +73,9 @@
                           alt=""
                       /></a>
                     </td>
-                    <td class="product-name"><a href="#">عنوان محصول</a></td>
+                    <td class="product-name"><a href="#">Product Name</a></td>
                     <td class="product-price-cart">
-                      <span class="amount">50.000 تومان</span>
+                      <span class="amount">$50.00</span>
                     </td>
                     <td class="product-quantity">
                       <div class="cart-plus-minus">
@@ -87,7 +87,7 @@
                         />
                       </div>
                     </td>
-                    <td class="product-subtotal">50.000 تومان</td>
+                    <td class="product-subtotal">$80.00</td>
                     <td class="product-remove">
                       <a href="#"><i class="icon-pencil"></i></a>
                       <a href="#"><i class="icon-close"></i></a>
@@ -102,9 +102,9 @@
                           alt=""
                       /></a>
                     </td>
-                    <td class="product-name"><a href="#">عنوان محصول</a></td>
+                    <td class="product-name"><a href="#">Product Name</a></td>
                     <td class="product-price-cart">
-                      <span class="amount">50.000 تومان</span>
+                      <span class="amount">$70.00</span>
                     </td>
                     <td class="product-quantity">
                       <div class="cart-plus-minus">
@@ -116,7 +116,7 @@
                         />
                       </div>
                     </td>
-                    <td class="product-subtotal">50.000 تومان</td>
+                    <td class="product-subtotal">$90.00</td>
                     <td class="product-remove">
                       <a href="#"><i class="icon-pencil"></i></a>
                       <a href="#"><i class="icon-close"></i></a>
@@ -129,11 +129,11 @@
               <div class="col-lg-12">
                 <div class="cart-shiping-update-wrapper">
                   <div class="cart-shiping-update">
-                    <a href="#">به خرید ادامه دهید</a>
+                    <a href="#">Continue Shopping</a>
                   </div>
                   <div class="cart-clear">
-                    <button>بروزرسانی سبد خرید</button>
-                    <a href="#">پاک کردن سبد خرید</a>
+                    <button>Update Shopping Cart</button>
+                    <a href="#">Clear Shopping Cart</a>
                   </div>
                 </div>
               </div>
@@ -144,40 +144,38 @@
               <div class="cart-tax">
                 <div class="title-wrap">
                   <h4 class="cart-bottom-title section-bg-gray">
-                    محاسبه هزینه ارسال و مالیات
+                    Estimate Shipping And Tax
                   </h4>
                 </div>
                 <div class="tax-wrapper">
-                  <p>
-                    کشور و استان خود را جهت تخمین قیمت ارسال و مالیات وارد کنید.
-                  </p>
+                  <p>Enter your destination to get a shipping estimate.</p>
                   <div class="tax-select-wrapper">
                     <div class="tax-select">
-                      <label> * کشور </label>
+                      <label> * Country </label>
                       <select class="email s-email s-wid">
-                        <option>ایران</option>
-                        <option>قطر</option>
-                        <option>امارات</option>
-                        <option>عراق</option>
-                        <option>ارمنستان</option>
+                        <option>Bangladesh</option>
+                        <option>Albania</option>
+                        <option>Åland Islands</option>
+                        <option>Afghanistan</option>
+                        <option>Belgium</option>
                       </select>
                     </div>
                     <div class="tax-select">
-                      <label> * استان / ایالت </label>
+                      <label> * Region / State </label>
                       <select class="email s-email s-wid">
-                        <option>استان یک</option>
-                        <option>استان دو</option>
-                        <option>استان سه</option>
-                        <option>استان چهار</option>
-                        <option>استان پنج</option>
+                        <option>Bangladesh</option>
+                        <option>Albania</option>
+                        <option>Åland Islands</option>
+                        <option>Afghanistan</option>
+                        <option>Belgium</option>
                       </select>
                     </div>
                     <div class="tax-select mb-25px">
-                      <label> * کد پستی </label>
+                      <label> * Zip/Postal Code </label>
                       <input type="text" />
                     </div>
                     <button class="cart-btn-2" type="submit">
-                      ثبت اطلاعات
+                      Get A Quote
                     </button>
                   </div>
                 </div>
@@ -187,15 +185,15 @@
               <div class="discount-code-wrapper">
                 <div class="title-wrap">
                   <h4 class="cart-bottom-title section-bg-gray">
-                    ثبت کد تخفیف
+                    Use Coupon Code
                   </h4>
                 </div>
                 <div class="discount-code">
-                  <p>اگر کد تخفیف دارید، وارد نمایید.</p>
+                  <p>Enter your coupon code if you have one.</p>
                   <form>
                     <input type="text" required="" name="name" />
                     <button class="cart-btn-2" type="submit">
-                      ثبت کد تخفیف
+                      Apply Coupon
                     </button>
                   </form>
                 </div>
@@ -205,27 +203,25 @@
               <div class="grand-totall">
                 <div class="title-wrap">
                   <h4 class="cart-bottom-title section-bg-gary-cart">
-                    مجموع سبد خرید
+                    Cart Total
                   </h4>
                 </div>
-                <h5>جمع محصولات <span>150.000 تومان</span></h5>
+                <h5>Total products <span>$260.00</span></h5>
                 <div class="total-shipping">
-                  <h5>انتخاب نوع ارسال</h5>
+                  <h5>Total shipping</h5>
                   <ul>
                     <li>
-                      <input type="checkbox" /> پست پیشتاز
-                      <span>30.000 تومان</span>
+                      <input type="checkbox" /> Standard <span>$20.00</span>
                     </li>
                     <li>
-                      <input type="checkbox" /> پست سفارشی
-                      <span>20.000 تومان</span>
+                      <input type="checkbox" /> Express <span>$30.00</span>
                     </li>
                   </ul>
                 </div>
                 <h4 class="grand-totall-title">
-                  جمع نهایی <span>150.000 تومان</span>
+                  Grand Total <span>$260.00</span>
                 </h4>
-                <a href="#">تسویه حساب</a>
+                <a href="#">Proceed to Checkout</a>
               </div>
             </div>
           </div>

@@ -6,10 +6,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li>
-                <NuxtLink to="/">صفحه اصلی</NuxtLink>
-              </li>
-              <li>تسویه حساب</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Checkout</li>
             </ul>
           </div>
         </div>
@@ -23,177 +21,183 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="billing-info-wrap">
-            <h3>جزئیات صورتحساب</h3>
+            <h3>Billing Details</h3>
             <div class="row">
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>نام</label>
+                  <label>First Name</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>نام خانوادگی</label>
+                  <label>Last Name</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="billing-info mb-20px">
-                  <label>نام شرکت</label>
+                  <label>Company Name</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="billing-select mb-20px">
-                  <label>کشور</label>
+                  <label>Country</label>
                   <select>
-                    <option>انتخاب کشور</option>
-                    <option>ایران</option>
-                    <option>قطر</option>
-                    <option>امارات</option>
-                    <option>عراق</option>
-                    <option>ارمنستان</option>
+                    <option>Select a country</option>
+                    <option>Azerbaijan</option>
+                    <option>Bahamas</option>
+                    <option>Bahrain</option>
+                    <option>Bangladesh</option>
+                    <option>Barbados</option>
                   </select>
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="billing-info mb-20px">
-                  <label>آدرس</label>
+                  <label>Street Address</label>
                   <input
                     class="billing-address"
-                    placeholder="نام خیابان و کوچه"
+                    placeholder="House number and street name"
                     type="text"
                   />
-                  <input placeholder="پلاک و واحد" type="text" />
+                  <input
+                    placeholder="Apartment, suite, unit etc."
+                    type="text"
+                  />
                 </div>
               </div>
               <div class="col-lg-12">
                 <div class="billing-info mb-20px">
-                  <label>شهر</label>
+                  <label>Town / City</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>استان</label>
+                  <label>State / County</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>کد پستی</label>
+                  <label>Postcode / ZIP</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>تلفن</label>
+                  <label>Phone</label>
                   <input type="text" />
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="billing-info mb-20px">
-                  <label>ایمیل</label>
+                  <label>Email Address</label>
                   <input type="text" />
                 </div>
               </div>
             </div>
             <div class="checkout-account mb-30px">
               <input class="checkout-toggle2" type="checkbox" />
-              <label>ایجاد حساب کاربری</label>
+              <label>Create an account?</label>
             </div>
             <div class="checkout-account-toggle open-toggle2 mb-30">
-              <input placeholder="ایمیل" type="email" />
-              <input placeholder="گذرواژه" type="password" />
+              <input placeholder="Email address" type="email" />
+              <input placeholder="Password" type="password" />
               <button class="btn-hover checkout-btn" type="submit">
-                ثبت نام
+                register
               </button>
             </div>
             <div class="additional-info-wrap">
-              <h4>اطلاعات تکمیلی</h4>
+              <h4>Additional information</h4>
               <div class="additional-info">
-                <label>یادداشت</label>
+                <label>Order notes</label>
                 <textarea
-                  placeholder="اگر یادداشتی درباره سفارشتان دارید، وارد نمایید. "
+                  placeholder="Notes about your order, e.g. special notes for delivery. "
                   name="message"
                 ></textarea>
               </div>
             </div>
             <div class="checkout-account mt-25">
-              <input class="checkout-toggle" type="checkbox" />&nbsp;به آدرس
-              دیگری ارسال شود؟
+              <input class="checkout-toggle" type="checkbox" />
+              <label>Ship to a different address?</label>
             </div>
             <div class="different-address open-toggle mt-30px">
               <div class="row">
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>نام</label>
+                    <label>First Name</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>نام خانوارگی</label>
+                    <label>Last Name</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="billing-info mb-20px">
-                    <label>نام شرکت</label>
+                    <label>Company Name</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="billing-select mb-20px">
-                    <label>کشور</label>
+                    <label>Country</label>
                     <select>
-                      <option>انتخاب کشور</option>
-                      <option>ایران</option>
-                      <option>قطر</option>
-                      <option>امارات</option>
-                      <option>عراق</option>
-                      <option>ارمنستان</option>
+                      <option>Select a country</option>
+                      <option>Azerbaijan</option>
+                      <option>Bahamas</option>
+                      <option>Bahrain</option>
+                      <option>Bangladesh</option>
+                      <option>Barbados</option>
                     </select>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="billing-info mb-20px">
-                    <label>آدرس</label>
+                    <label>Street Address</label>
                     <input
                       class="billing-address"
-                      placeholder="نام خیابان و کوچه"
+                      placeholder="House number and street name"
                       type="text"
                     />
-                    <input placeholder="پلاک و واحد" type="text" />
+                    <input
+                      placeholder="Apartment, suite, unit etc."
+                      type="text"
+                    />
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="billing-info mb-20px">
-                    <label>شهر</label>
+                    <label>Town / City</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>استان</label>
+                    <label>State / County</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>کد پستی</label>
+                    <label>Postcode / ZIP</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>تلفن</label>
+                    <label>Phone</label>
                     <input type="text" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="billing-info mb-20px">
-                    <label>ایمیل</label>
+                    <label>Email Address</label>
                     <input type="text" />
                   </div>
                 </div>
@@ -203,37 +207,37 @@
         </div>
         <div class="col-lg-5 mt-md-30px mt-lm-30px">
           <div class="your-order-area">
-            <h3>سفارش شما</h3>
+            <h3>Your order</h3>
             <div class="your-order-wrap gray-bg-4">
               <div class="your-order-product-info">
                 <div class="your-order-top">
                   <ul>
-                    <li>محصول</li>
-                    <li>جمع</li>
+                    <li>Product</li>
+                    <li>Total</li>
                   </ul>
                 </div>
                 <div class="your-order-middle">
                   <ul>
                     <li>
-                      <span class="order-middle-left">عنوان محصول X 1</span>
-                      <span class="order-price">50.000 تومان </span>
+                      <span class="order-middle-left">Product Name X 1</span>
+                      <span class="order-price">$329 </span>
                     </li>
                     <li>
-                      <span class="order-middle-left">عنوان محصول X 1</span>
-                      <span class="order-price">50.000 تومان </span>
+                      <span class="order-middle-left">Product Name X 1</span>
+                      <span class="order-price">$329 </span>
                     </li>
                   </ul>
                 </div>
                 <div class="your-order-bottom">
                   <ul>
-                    <li class="your-order-shipping">هزینه ارسال</li>
-                    <li>رایگان</li>
+                    <li class="your-order-shipping">Shipping</li>
+                    <li>Free shipping</li>
                   </ul>
                 </div>
                 <div class="your-order-total">
                   <ul>
-                    <li class="order-total">جمع</li>
-                    <li>100.000 تومان</li>
+                    <li class="order-total">Total</li>
+                    <li>$329</li>
                   </ul>
                 </div>
               </div>
@@ -248,15 +252,15 @@
                             data-parent="#accordion"
                             href="#method1"
                           >
-                            سوال شماره یک
+                            Direct bank transfer
                           </a>
                         </h4>
                       </div>
                       <div id="method1" class="panel-collapse collapse show">
                         <div class="panel-body">
                           <p>
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                            صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            Please send a check to Store Name, Store Street,
+                            Store Town, Store State / County, Store Postcode.
                           </p>
                         </div>
                       </div>
@@ -270,15 +274,15 @@
                             data-parent="#accordion"
                             href="#method2"
                           >
-                            سوال شماره دو
+                            Check payments
                           </a>
                         </h4>
                       </div>
                       <div id="method2" class="panel-collapse collapse">
                         <div class="panel-body">
                           <p>
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                            صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            Please send a check to Store Name, Store Street,
+                            Store Town, Store State / County, Store Postcode.
                           </p>
                         </div>
                       </div>
@@ -292,15 +296,15 @@
                             data-parent="#accordion"
                             href="#method3"
                           >
-                            سوال شماره سه
+                            Cash on delivery
                           </a>
                         </h4>
                       </div>
                       <div id="method3" class="panel-collapse collapse">
                         <div class="panel-body">
                           <p>
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                            صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            Please send a check to Store Name, Store Street,
+                            Store Town, Store State / County, Store Postcode.
                           </p>
                         </div>
                       </div>
@@ -310,7 +314,7 @@
               </div>
             </div>
             <div class="Place-order mt-25">
-              <a class="btn-hover" href="#">پرداخت و ثبت سفارش</a>
+              <a class="btn-hover" href="#">Place Order</a>
             </div>
           </div>
         </div>

@@ -6,10 +6,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li>
-                <NuxtLink to="/">صفحه اصلی</NuxtLink>
-              </li>
-              <li>تک پست وبلاگ - با نوار کناری چپ</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Blog Single Left Sidebar</li>
             </ul>
           </div>
         </div>
@@ -21,7 +19,7 @@
   <div class="shop-category-area single-blog-page mtb-60px">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-md-12">
+        <div class="col-lg-9 order-lg-last col-md-12 order-md-first">
           <div class="blog-posts">
             <div class="single-blog-post blog-grid-post">
               <div class="blog-post-media">
@@ -31,69 +29,68 @@
               </div>
               <div class="blog-post-content-inner mt-30px">
                 <h4 class="blog-title">
-                  <a href="#">لورم ایپسوم متن ساختگی با سادگی</a>
+                  <a href="#">This is Third Post For XipBlog</a>
                 </h4>
                 <ul class="blog-page-meta">
                   <li>
-                    <a href="#"><i class="ion-person"></i> ادمین</a>
+                    <a href="#"><i class="ion-person"></i> Admin</a>
                   </li>
                   <li>
-                    <a href="#"><i class="ion-calendar"></i> 24 بهمن 1401</a>
+                    <a href="#"><i class="ion-calendar"></i> 24 April, 2020</a>
                   </li>
                 </ul>
                 <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد در این صورت
-                  می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و
-                  شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
-                  دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
-                  اساسا مورد استفاده قرار گیرد.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim adminim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip commodo consequat. Duis aute irure dolor in
+                  rep rehenderit. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed do eiumod tempor incididunt ut labore et
+                  dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim adminim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip commodo
+                  consequat.
                 </p>
               </div>
               <div class="single-post-content">
                 <p class="quate-speech">
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in rep rehenderit. Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit, sed do eiumod tempor
+                  incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit, do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
                 </p>
                 <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد در این صورت
-                  می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و
-                  شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
-                  دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
-                  اساسا مورد استفاده قرار گیرد.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiumod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim adminim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip commodo consequat. Duis aute irure dolor in
+                  rep rehenderit. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed do eiumod tempor incididunt ut labore et
+                  dolore magna aliqua. consectetur adipisicing elit, sed do
+                  eiumod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <p>
-                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
-                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
-                  آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
-                  افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
-                  طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد در این صورت
-                  می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و
-                  شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
-                  دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی
-                  اساسا مورد استفاده قرار گیرد.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiumod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim adminim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip commodo consequat. Duis aute irure dolor in
+                  rep rehenderit. Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed do eiumod tempor incididunt ut labore et
+                  dolore magna aliqua.
                 </p>
               </div>
             </div>
@@ -101,21 +98,15 @@
           </div>
           <div class="blog-single-tags-share d-sm-flex justify-content-between">
             <div class="blog-single-tags d-flex">
-              <span class="title">برچسب ها : </span>
+              <span class="title">Tags: </span>
               <ul class="tag-list">
-                <li>
-                  <a href="#">لپ تاپ،</a>
-                </li>
-                <li>
-                  <a href="#">کامپیوتر،</a>
-                </li>
-                <li>
-                  <a href="#">تکنولوژی</a>
-                </li>
+                <li><a href="#">Fashion,</a></li>
+                <li><a href="#">T-shirt,</a></li>
+                <li><a href="#">White</a></li>
               </ul>
             </div>
             <div class="blog-single-share d-flex">
-              <span class="title">اشتراک گذاری :</span>
+              <span class="title">Share:</span>
               <ul class="social">
                 <li>
                   <a href="#"><i class="ion-social-facebook"></i></a>
@@ -137,7 +128,7 @@
               <div class="col-md-12 text-center">
                 <!-- Section Title -->
                 <div class="section-title underline-shape">
-                  <h2>مطالب اخیر</h2>
+                  <h2>Related Post</h2>
                 </div>
                 <!-- Section Title -->
               </div>
@@ -157,15 +148,17 @@
                 <div class="blog-post-content-inner mt-30px">
                   <h4 class="blog-title">
                     <a href="blog-single-left-sidebar.html"
-                      >لورم ایپسوم متن ساختگی با سادگی</a
+                      >This is Third Post For XipBlog</a
                     >
                   </h4>
                   <ul class="blog-page-meta">
                     <li>
-                      <a href="#"><i class="ion-person"></i> ادمین</a>
+                      <a href="#"><i class="ion-person"></i> Admin</a>
                     </li>
                     <li>
-                      <a href="#"><i class="ion-calendar"></i> 24 بهمن 1401</a>
+                      <a href="#"
+                        ><i class="ion-calendar"></i> 24 April, 2020</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -184,15 +177,17 @@
                 <div class="blog-post-content-inner mt-30px">
                   <h4 class="blog-title">
                     <a href="blog-single-left-sidebar.html"
-                      >لورم ایپسوم متن ساختگی با سادگی</a
+                      >This is Third Post For XipBlog</a
                     >
                   </h4>
                   <ul class="blog-page-meta">
                     <li>
-                      <a href="#"><i class="ion-person"></i> ادمین</a>
+                      <a href="#"><i class="ion-person"></i> Admin</a>
                     </li>
                     <li>
-                      <a href="#"><i class="ion-calendar"></i> 24 بهمن 1401</a>
+                      <a href="#"
+                        ><i class="ion-calendar"></i> 24 April, 2020</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -211,15 +206,17 @@
                 <div class="blog-post-content-inner mt-30px">
                   <h4 class="blog-title">
                     <a href="blog-single-left-sidebar.html"
-                      >لورم ایپسوم متن ساختگی با سادگی</a
+                      >This is Third Post For XipBlog</a
                     >
                   </h4>
                   <ul class="blog-page-meta">
                     <li>
-                      <a href="#"><i class="ion-person"></i> ادمین</a>
+                      <a href="#"><i class="ion-person"></i> Admin</a>
                     </li>
                     <li>
-                      <a href="#"><i class="ion-calendar"></i> 24 بهمن 1401</a>
+                      <a href="#"
+                        ><i class="ion-calendar"></i> 24 April, 2020</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -227,7 +224,7 @@
             </div>
           </div>
           <div class="comment-area">
-            <h2 class="comment-heading">3 نظر</h2>
+            <h2 class="comment-heading">3 Comments</h2>
             <div class="review-wrapper">
               <div class="single-review">
                 <div class="review-img">
@@ -237,18 +234,20 @@
                   <div class="review-top-wrap">
                     <div class="review-left">
                       <div class="review-name">
-                        <h4>رضا محمدی</h4>
-                        <span class="date">27 آذر 1401 - 14:30</span>
+                        <h4>White Lewis</h4>
+                        <span class="date">February 16, 2020 at 1:38 am</span>
                       </div>
                     </div>
-                    <div class="review-left"><a href="#">پاسخ دادن</a></div>
+                    <div class="review-left">
+                      <a href="#">Reply</a>
+                    </div>
                   </div>
                   <div class="review-bottom">
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی است.
+                      Vestibulum ante ipsum primis aucibus orci luctustrices
+                      posuere cubilia Curae Suspendisse viverra ed viverra.
+                      Mauris ullarper euismod vehicula. Phasellus quam nisi,
+                      congue id nulla.
                     </p>
                   </div>
                 </div>
@@ -261,18 +260,19 @@
                   <div class="review-top-wrap">
                     <div class="review-left">
                       <div class="review-name">
-                        <h4>رضا محمدی</h4>
-                        <span class="date">27 آذر 1401 - 14:30</span>
+                        <h4>White Lewis</h4>
+                        <span class="date">February 16, 2020 at 1:38 am</span>
                       </div>
                     </div>
-                    <div class="review-left"><a href="#">پاسخ دادن</a></div>
+                    <div class="review-left">
+                      <a href="#">Reply</a>
+                    </div>
                   </div>
                   <div class="review-bottom">
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی است.
+                      Vestibulum ante ipsum primis aucibus orci luctustrices
+                      posuere cubilia Curae Sus pen disse viverra ed viverra.
+                      Mauris ullarper euismod vehicula.
                     </p>
                   </div>
                 </div>
@@ -285,18 +285,20 @@
                   <div class="review-top-wrap">
                     <div class="review-left">
                       <div class="review-name">
-                        <h4>رضا محمدی</h4>
-                        <span class="date">27 آذر 1401 - 14:30</span>
+                        <h4>White Lewis</h4>
+                        <span class="date">February 16, 2020 at 1:38 am</span>
                       </div>
                     </div>
-                    <div class="review-left"><a href="#">پاسخ دادن</a></div>
+                    <div class="review-left">
+                      <a href="#">Reply</a>
+                    </div>
                   </div>
                   <div class="review-bottom">
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی است.
+                      Vestibulum ante ipsum primis aucibus orci luctustrices
+                      posuere cubilia Curae Suspendisse viverra ed viverra.
+                      Mauris ullarper euismod vehicula. Phasellus quam nisi,
+                      congue id nulla.
                     </p>
                   </div>
                 </div>
@@ -304,53 +306,58 @@
             </div>
           </div>
           <div class="blog-comment-form">
-            <h2 class="comment-heading">ارسال نظر</h2>
+            <h2 class="comment-heading">Leave a Reply</h2>
             <p>
-              آدرس ایمیل شما منتشر نخواهد شد. فیلدهای الزامی علامت گذاری شده
-              اند.
+              Your email address will not be published. Required fields are
+              marked *
             </p>
             <div class="row">
               <div class="col-md-12">
                 <div class="single-form">
-                  <label>* نظر شما :</label>
-                  <textarea placeholder="متن پیام"></textarea>
+                  <label>Your Review:</label>
+                  <textarea placeholder="Write a review"></textarea>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="single-form">
-                  <label>* نام :</label>
-                  <input type="text" placeholder="نام" />
+                  <label>Name:</label>
+                  <input type="text" placeholder="Name" />
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="single-form">
-                  <label>* ایمیل :</label>
-                  <input type="email" placeholder="ایمیل" />
+                  <label>Email:</label>
+                  <input type="email" placeholder="Email" />
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="single-form">
-                  <label>وبسایت :</label>
-                  <input type="email" placeholder="وبسایت" />
+                  <label>Website:</label>
+                  <input type="email" placeholder="Website" />
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="single-form">
-                  <input class="submit" type="submit" value="ارسال" />
+                  <input class="submit" type="submit" value="Submit" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Sidebar Area Start -->
-        <div class="col-lg-3 col-md-12 mt-lm-50px mt-md-50px">
+        <div
+          class="col-lg-3 order-lg-first col-md-12 order-md-last mt-lm-50px mt-md-50px"
+        >
           <div class="left-sidebar shop-sidebar-wrap">
             <!-- Sidebar single item -->
             <div class="sidebar-widget">
-              <h3 class="sidebar-title">جستجو</h3>
+              <h3 class="sidebar-title">Search</h3>
               <div class="search-widget">
                 <form action="#">
-                  <input placeholder="جستجو ..." type="text" />
+                  <input
+                    placeholder="Search entire store here ..."
+                    type="text"
+                  />
                   <button type="submit">
                     <i class="ion-ios-search-strong"></i>
                   </button>
@@ -360,36 +367,23 @@
             <!-- Sidebar single item -->
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">دسته بندی ها</h3>
+              <h3 class="sidebar-title">Categories</h3>
               <div class="category-post">
                 <ul>
-                  <li>
-                    <a href="#">لپ تاپ (20)</a>
-                  </li>
-                  <li>
-                    <a href="#">کنسول بازی (9)</a>
-                  </li>
-                  <li>
-                    <a href="#">دسته بازی (5)</a>
-                  </li>
-                  <li>
-                    <a href="#">کامپیوتر (11)</a>
-                  </li>
-                  <li>
-                    <a href="#">تکنولوژی (3)</a>
-                  </li>
-                  <li>
-                    <a href="#">لوازم جانبی (6)</a>
-                  </li>
-                  <li>
-                    <a href="#">کیبورد (4)</a>
-                  </li>
+                  <li><a href="#">Dresses (20)</a></li>
+                  <li><a href="#">Jackets & Coats (9)</a></li>
+                  <li><a href="#">Sweaters (5)</a></li>
+                  <li><a href="#">Jeans (11)</a></li>
+                  <li><a href="#">Blouses & Shirts (3)</a></li>
+                  <li><a href="#">Electronic Cigarettes (6)</a></li>
+                  <li><a href="#">Bags & Cases (4)</a></li>
                 </ul>
               </div>
             </div>
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">مطالب اخیر</h3>
+              <h3 class="sidebar-title">Recent Post</h3>
+
               <div class="recent-post-widget">
                 <div class="recent-single-post d-flex">
                   <div class="thumb-side">
@@ -398,8 +392,8 @@
                     /></a>
                   </div>
                   <div class="media-side">
-                    <h5><a href="#">لورم ایپسوم متن ساختگی با سادگی </a></h5>
-                    <span class="date">16 آذر 1401</span>
+                    <h5><a href="#">This Is First Post For XipBlog </a></h5>
+                    <span class="date">APRIL 24, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
@@ -409,8 +403,8 @@
                     /></a>
                   </div>
                   <div class="media-side">
-                    <h5><a href="#">لورم ایپسوم متن ساختگی با سادگی </a></h5>
-                    <span class="date">16 آذر 1401</span>
+                    <h5><a href="#">This Is Secound Post For XipBlog </a></h5>
+                    <span class="date">APRIL 25, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
@@ -420,8 +414,8 @@
                     /></a>
                   </div>
                   <div class="media-side">
-                    <h5><a href="#">لورم ایپسوم متن ساختگی با سادگی </a></h5>
-                    <span class="date">16 آذر 1401</span>
+                    <h5><a href="#">This Is Third Post For XipBlog </a></h5>
+                    <span class="date">APRIL 26, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
@@ -431,29 +425,22 @@
                     /></a>
                   </div>
                   <div class="media-side">
-                    <h5><a href="#">لورم ایپسوم متن ساختگی با سادگی </a></h5>
-                    <span class="date">16 آذر 1401</span>
+                    <h5><a href="#">This Is Fourth Post For XipBlog </a></h5>
+                    <span class="date">APRIL 27, 2020</span>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">برچسب ها</h3>
+              <h3 class="sidebar-title">Tags</h3>
+
               <div class="sidebar-widget-tag">
                 <ul>
-                  <li>
-                    <a href="#">لپ تاپ</a>
-                  </li>
-                  <li>
-                    <a href="#">کنسول بازی</a>
-                  </li>
-                  <li>
-                    <a href="#">کامپیوتر</a>
-                  </li>
-                  <li>
-                    <a href="#">لوازم جانبی</a>
-                  </li>
+                  <li><a href="#">Electronics</a></li>
+                  <li><a href="#">Audio & Video</a></li>
+                  <li><a href="#">Video Games</a></li>
+                  <li><a href="#">Camera & Photo</a></li>
                 </ul>
               </div>
             </div>

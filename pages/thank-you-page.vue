@@ -1,5 +1,4 @@
 <template>
-
   <!-- Breadcrumb Area Start -->
   <div class="breadcrumb-area">
     <div class="container">
@@ -7,8 +6,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li><NuxtLink to="/">صفحه اصلی</NuxtLink></li>
-              <li>تشکر از خرید شما</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Thank You</li>
             </ul>
           </div>
         </div>
@@ -26,13 +25,13 @@
               <img src="assets/images/icons/cmpted_logo.png" alt="" />
             </div>
             <p class="dsc_cmpted">
-              با تشکر از شما برای ثبت سفارش در فروشگاه ما. شما به زودی یک ایمیل
-              تائید دریافت خواهید کرد.
+              Thank you for ordering in our store. You will receive a
+              confirmation email shortly.
             </p>
             <div class="btn_cmpted">
               <a href="shop-4-column.html" class="shop-btn" title="Go To Shop"
-                >به خرید ادامه دهید</a
-              >
+                >Continue Shopping
+              </a>
             </div>
           </div>
         </div>
@@ -44,11 +43,11 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-12">
           <div class="main_quickorder text-align-center">
-            <h3 class="title">برای سفارش سریع با ما تماس بگیرید</h3>
-            <div class="cntct typewriter-effect tm-ltr">
+            <h3 class="title">Call Us for Quick Order</h3>
+            <div class="cntct typewriter-effect">
               <span class="call_desk"
-                ><a href="tel:02100000000" id="typewriter_num"
-                  >021 0000 0000</a
+                ><a href="tel:+01234567890" id="typewriter_num"
+                  >01 234 567 890</a
                 ></span
               >
             </div>

@@ -1,4 +1,17 @@
+<script setup lang="ts">
+
+definePageMeta({
+  title: "Home",
+  layout: 'home'
+});
+
+
+
+</script>
+
 <template>
+
+
   <!-- Slider Start -->
   <div class="slider-area slider-height-1">
     <div class="hero-slider swiper-container">
@@ -10,13 +23,13 @@
         >
           <div class="container align-self-center">
             <div class="slider-content-1 slider-animated-1 text-start pl-60px">
-              <span class="animated color-gray">محصول جدید</span>
+              <span class="animated color-gray">NEW DESIGN FEATURES</span>
               <h1 class="animated color-black">
-                عنوان محصول فروشگاه <br />
-                <strong>جزئیات محصول</strong>
+                Hamsung Galaxy <br />
+                <strong>S10+ Edge</strong>
               </h1>
               <a href="shop-4-column.html" class="shop-btn animated"
-                >اکنون خرید کنید</a
+                >SHOP NOW</a
               >
             </div>
           </div>
@@ -24,19 +37,17 @@
         <!-- Single Slider  -->
         <div
           class="swiper-slide bg-img d-flex"
-          style="
-            background-image: url('assets/images/slider-image/sample-1.jpg');
-          "
+          style="background-image: url(assets/images/slider-image/sample-1.jpg)"
         >
           <div class="container align-self-center">
             <div class="slider-content-1 slider-animated-1 text-start pl-60px">
-              <span class="animated color-gray">محصول جدید</span>
+              <span class="animated color-gray">WIRELESS BLUETOOTH GAMING</span>
               <h1 class="animated color-black">
-                عنوان محصول فروشگاه <br />
-                <strong>جزئیات محصول</strong>
+                Bluetooth Gamepad <br />
+                <strong>IPEGA PG-9023</strong>
               </h1>
               <a href="shop-4-column.html" class="shop-btn animated"
-                >اکنون خرید کنید</a
+                >SHOP NOW</a
               >
             </div>
           </div>
@@ -48,9 +59,7 @@
     </div>
   </div>
   <!-- Slider End -->
-
   <!-- Static Area Start -->
-
   <div class="static-area mtb-60px">
     <div class="container">
       <div class="static-area-wrap">
@@ -61,13 +70,13 @@
           >
             <div class="single-static">
               <img
-                src="~/assets/images/icons/static-icons-1.png"
+                src="assets/images/icons/static-icons-1.png"
                 alt=""
                 class="img-responsive"
               />
               <div class="single-static-meta">
-                <h4>ارسال رایگان</h4>
-                <p>لورم ایپسوم متن ساختگی با سادگی</p>
+                <h4>Free Shipping</h4>
+                <p>On all orders over $75.00</p>
               </div>
             </div>
           </div>
@@ -78,13 +87,13 @@
           >
             <div class="single-static">
               <img
-                src="~/assets/images/icons/static-icons-2.png"
+                src="assets/images/icons/static-icons-2.png"
                 alt=""
                 class="img-responsive"
               />
               <div class="single-static-meta">
-                <h4>ضمانت مرجوعی</h4>
-                <p>لورم ایپسوم متن ساختگی با سادگی</p>
+                <h4>Free Returns</h4>
+                <p>Returns are free within 9 days</p>
               </div>
             </div>
           </div>
@@ -93,13 +102,13 @@
           <div class="col-lg-3 col-xs-12 col-md-6 col-sm-6 mb-sm-30px">
             <div class="single-static">
               <img
-                src="~/assets/images/icons/static-icons-4.png"
+                src="assets/images/icons/static-icons-4.png"
                 alt=""
                 class="img-responsive"
               />
               <div class="single-static-meta">
-                <h4>پرداخت امن</h4>
-                <p>لورم ایپسوم متن ساختگی با سادگی</p>
+                <h4>Support 24/7</h4>
+                <p>Contact us 24 hours a day</p>
               </div>
             </div>
           </div>
@@ -108,13 +117,13 @@
           <div class="col-lg-3 col-xs-12 col-md-6 col-sm-6">
             <div class="single-static">
               <img
-                src="~/assets/images/icons/static-icons-3.png"
+                src="assets/images/icons/static-icons-3.png"
                 alt=""
                 class="img-responsive"
               />
               <div class="single-static-meta">
-                <h4>پشتیبانی سریع</h4>
-                <p>لورم ایپسوم متن ساختگی با سادگی</p>
+                <h4>100% Payment Secure</h4>
+                <p>Your payment are safe with us.</p>
               </div>
             </div>
           </div>
@@ -131,21 +140,21 @@
         <div class="col-md-4 col-xs-12">
           <div class="banner-wrapper">
             <a href="shop-4-column.html"
-              ><img src="~/assets/images/banner-image/1.jpg" alt=""
+              ><img src="assets/images/banner-image/1.jpg" alt=""
             /></a>
           </div>
         </div>
         <div class="col-md-4 col-xs-12">
           <div class="banner-wrapper">
             <a href="shop-4-column.html"
-              ><img src="~/assets/images/banner-image/2.jpg" alt=""
+              ><img src="assets/images/banner-image/2.jpg" alt=""
             /></a>
           </div>
         </div>
         <div class="col-md-4 col-xs-12">
           <div class="banner-wrapper">
             <a href="shop-4-column.html"
-              ><img src="~/assets/images/banner-image/3.jpg" alt=""
+              ><img src="assets/images/banner-image/3.jpg" alt=""
             /></a>
           </div>
         </div>
@@ -159,7 +168,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2 class="section-heading">دسته بندی های محبوب</h2>
+            <h2 class="section-heading">Popular Categories</h2>
           </div>
         </div>
       </div>
@@ -169,120 +178,120 @@
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/1.jpg"
+                  src="assets/images/product-image/1.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Smart Electronics</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Wearable Devices</a></li>
+                <li><a href="#">Smart Home Appliances</a></li>
+                <li><a href="#">Smart Remote Controls</a></li>
+                <li><a href="#">Smart Watches</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
           <div class="category-slider-item swiper-slide">
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/2.jpg"
+                  src="assets/images/product-image/2.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Audio & Video</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Televisions</a></li>
+                <li><a href="#">TV Receivers</a></li>
+                <li><a href="#">Projectors</a></li>
+                <li><a href="#">TV Sticks</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
           <div class="category-slider-item swiper-slide">
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/3.jpg"
+                  src="assets/images/product-image/3.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Video Games</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Handheld Game Players</a></li>
+                <li><a href="#">Game Controllers</a></li>
+                <li><a href="#">Joysticks</a></li>
+                <li><a href="#">Stickers</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
           <div class="category-slider-item swiper-slide">
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/4.jpg"
+                  src="assets/images/product-image/4.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Portable Audio & Video</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Headphones</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">MP3 Players</a></li>
+                <li><a href="#">Microphones</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
           <div class="category-slider-item swiper-slide">
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/5.jpg"
+                  src="assets/images/product-image/5.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Camera & Photo</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Digital Cameras</a></li>
+                <li><a href="#">Camcorders</a></li>
+                <li><a href="#">Camera Drones</a></li>
+                <li><a href="#">Action Cameras</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
           <div class="category-slider-item swiper-slide">
             <div class="thumb-category">
               <a href="single-product.html">
                 <img
-                  src="~/assets/images/product-image/1.jpg"
+                  src="assets/images/product-image/1.jpg"
                   alt="product-image.jpg"
                 />
               </a>
             </div>
             <div class="category-discript">
-              <h4>عنوان دسته</h4>
+              <h4>Smart Electronics</h4>
               <ul>
-                <li><a href="#">زیر دسته یک</a></li>
-                <li><a href="#">زیر دسته دو</a></li>
-                <li><a href="#">زیر دسته سه</a></li>
-                <li><a href="#">زیر دسته چهار</a></li>
+                <li><a href="#">Wearable Devices</a></li>
+                <li><a href="#">Smart Home Appliances</a></li>
+                <li><a href="#">Smart Remote Controls</a></li>
+                <li><a href="#">Smart Watches</a></li>
               </ul>
-              <NuxtLink to="/shop-4-column" class="view-all-btn">مشاهده همه</NuxtLink>
+              <a href="shop-4-column.html" class="view-all-btn">View All</a>
             </div>
           </div>
         </div>
@@ -301,7 +310,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2 class="section-heading">محصولات ویژه</h2>
+            <h2 class="section-heading">Featured Products</h2>
           </div>
         </div>
       </div>
@@ -314,12 +323,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/6.jpg"
+                    src="assets/images/product-image/6.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/7.jpg"
+                    src="assets/images/product-image/7.jpg"
                     alt=""
                   />
                 </a>
@@ -328,7 +337,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -337,15 +346,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -357,18 +366,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -381,12 +392,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/7.jpg"
+                    src="assets/images/product-image/7.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/8.jpg"
+                    src="assets/images/product-image/8.jpg"
                     alt=""
                   />
                 </a>
@@ -395,7 +406,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -404,15 +415,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -424,87 +435,22 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <!-- Single Item -->
-          <div class="feature-slider-item swiper-slide">
-            <article class="list-product">
-              <div class="img-block">
-                <a href="single-product.html" class="thumbnail">
-                  <img
-                    class="first-img"
-                    src="~/assets/images/product-image/9.jpg"
-                    alt=""
-                  />
-                  <img
-                    class="second-img"
-                    src="~/assets/images/product-image/10.jpg"
-                    alt=""
-                  />
-                </a>
-                <div class="quick-view">
-                  <a
-                    class="quick_view"
-                    href="#"
-                    data-link-action="quickview"
-                    title="مشاهده سریع"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    <i class="icon-magnifier icons"></i>
-                  </a>
-                </div>
-              </div>
-              <ul class="product-flag">
-                <li class="new">جدید</li>
-              </ul>
-              <div class="product-decs">
-                <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
-                >
-                <h2>
-                  <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
-                  >
-                </h2>
-                <div class="rating-product">
-                  <i class="ion-android-star"></i>
-                  <i class="ion-android-star"></i>
-                  <i class="ion-android-star"></i>
-                  <i class="ion-android-star"></i>
-                  <i class="ion-android-star"></i>
-                </div>
-                <div class="pricing-meta">
-                  <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="add-to-link">
-                <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -517,12 +463,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/12.jpg"
+                    src="assets/images/product-image/9.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/13.jpg"
+                    src="assets/images/product-image/10.jpg"
                     alt=""
                   />
                 </a>
@@ -531,7 +477,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -540,15 +486,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -560,18 +506,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -584,12 +532,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/14.jpg"
+                    src="assets/images/product-image/12.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/15.jpg"
+                    src="assets/images/product-image/13.jpg"
                     alt=""
                   />
                 </a>
@@ -598,7 +546,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -607,15 +555,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -627,18 +575,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -651,12 +601,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/16.jpg"
+                    src="assets/images/product-image/14.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/17.jpg"
+                    src="assets/images/product-image/15.jpg"
                     alt=""
                   />
                 </a>
@@ -665,7 +615,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -674,15 +624,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -694,18 +644,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -718,12 +670,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/18.jpg"
+                    src="assets/images/product-image/16.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/19.jpg"
+                    src="assets/images/product-image/17.jpg"
                     alt=""
                   />
                 </a>
@@ -732,7 +684,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -741,15 +693,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -761,18 +713,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -785,12 +739,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/20.jpg"
+                    src="assets/images/product-image/18.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/21.jpg"
+                    src="assets/images/product-image/19.jpg"
                     alt=""
                   />
                 </a>
@@ -799,7 +753,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -808,15 +762,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -828,18 +782,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -852,12 +808,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/22.jpg"
+                    src="assets/images/product-image/20.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/23.jpg"
+                    src="assets/images/product-image/21.jpg"
                     alt=""
                   />
                 </a>
@@ -866,7 +822,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -875,15 +831,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -895,18 +851,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -919,12 +877,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/24.jpg"
+                    src="assets/images/product-image/22.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/25.jpg"
+                    src="assets/images/product-image/23.jpg"
                     alt=""
                   />
                 </a>
@@ -933,7 +891,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -942,15 +900,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -962,18 +920,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -986,12 +946,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/26.jpg"
+                    src="assets/images/product-image/24.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/27.jpg"
+                    src="assets/images/product-image/25.jpg"
                     alt=""
                   />
                 </a>
@@ -1000,7 +960,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1009,15 +969,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1029,18 +989,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1053,12 +1015,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/28.jpg"
+                    src="assets/images/product-image/26.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/29.jpg"
+                    src="assets/images/product-image/27.jpg"
                     alt=""
                   />
                 </a>
@@ -1067,7 +1029,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1076,15 +1038,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1096,18 +1058,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1120,12 +1084,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/6.jpg"
+                    src="assets/images/product-image/28.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/7.jpg"
+                    src="assets/images/product-image/29.jpg"
                     alt=""
                   />
                 </a>
@@ -1134,7 +1098,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1143,15 +1107,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1163,18 +1127,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1187,12 +1153,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/8.jpg"
+                    src="assets/images/product-image/6.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/9.jpg"
+                    src="assets/images/product-image/7.jpg"
                     alt=""
                   />
                 </a>
@@ -1201,7 +1167,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1210,15 +1176,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1230,18 +1196,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1254,12 +1222,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/10.jpg"
+                    src="assets/images/product-image/8.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/11.jpg"
+                    src="assets/images/product-image/9.jpg"
                     alt=""
                   />
                 </a>
@@ -1268,7 +1236,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1277,15 +1245,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1297,18 +1265,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1321,12 +1291,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/12.jpg"
+                    src="assets/images/product-image/10.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/13.jpg"
+                    src="assets/images/product-image/11.jpg"
                     alt=""
                   />
                 </a>
@@ -1335,7 +1305,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1344,15 +1314,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1364,18 +1334,20 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1388,12 +1360,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/14.jpg"
+                    src="assets/images/product-image/12.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/15.jpg"
+                    src="assets/images/product-image/13.jpg"
                     alt=""
                   />
                 </a>
@@ -1402,7 +1374,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1411,15 +1383,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1431,18 +1403,89 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <!-- Single Item -->
+          <div class="feature-slider-item swiper-slide">
+            <article class="list-product">
+              <div class="img-block">
+                <a href="single-product.html" class="thumbnail">
+                  <img
+                    class="first-img"
+                    src="assets/images/product-image/14.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="second-img"
+                    src="assets/images/product-image/15.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="quick-view">
+                  <a
+                    class="quick_view"
+                    href="#"
+                    data-link-action="quickview"
+                    title="Quick view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <i class="icon-magnifier icons"></i>
+                  </a>
+                </div>
+              </div>
+              <ul class="product-flag">
+                <li class="new">New</li>
+              </ul>
+              <div class="product-decs">
+                <a class="inner-link" href="shop-4-column.html"
+                  ><span>STUDIO DESIGN</span></a
+                >
+                <h2>
+                  <a href="single-product.html" class="product-link"
+                    >New Balance Arishi Sport v1</a
+                  >
+                </h2>
+                <div class="rating-product">
+                  <i class="ion-android-star"></i>
+                  <i class="ion-android-star"></i>
+                  <i class="ion-android-star"></i>
+                  <i class="ion-android-star"></i>
+                  <i class="ion-android-star"></i>
+                </div>
+                <div class="pricing-meta">
+                  <ul>
+                    <li class="old-price not-cut">€18.90</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="add-to-link">
+                <ul>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
+                  </li>
+                  <li>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1464,7 +1507,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2 class="section-heading">محصولات تخفیف دار</h2>
+            <h2 class="section-heading">Deals Of The Day</h2>
           </div>
         </div>
       </div>
@@ -1477,12 +1520,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/29.jpg"
+                    src="assets/images/product-image/29.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/17.jpg"
+                    src="assets/images/product-image/17.jpg"
                     alt=""
                   />
                 </a>
@@ -1491,7 +1534,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1500,15 +1543,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1520,13 +1563,13 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
                 <div class="availability-list in-stock">
-                  وضعیت : <span>موجود در انبار</span>
+                  Availability: <span>300 In Stock</span>
                 </div>
                 <div class="clockdiv">
                   <div data-countdown="2021/12/31"></div>
@@ -1534,12 +1577,14 @@
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1552,12 +1597,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/21.jpg"
+                    src="assets/images/product-image/21.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/23.jpg"
+                    src="assets/images/product-image/23.jpg"
                     alt=""
                   />
                 </a>
@@ -1566,7 +1611,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1575,15 +1620,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1595,13 +1640,13 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
                 <div class="availability-list in-stock">
-                  وضعیت : <span>موجود در انبار</span>
+                  Availability: <span>300 In Stock</span>
                 </div>
                 <div class="clockdiv">
                   <div data-countdown="2021/12/31"></div>
@@ -1609,12 +1654,14 @@
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1627,12 +1674,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/9.jpg"
+                    src="assets/images/product-image/9.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/28.jpg"
+                    src="assets/images/product-image/28.jpg"
                     alt=""
                   />
                 </a>
@@ -1641,7 +1688,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1650,15 +1697,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1670,13 +1717,13 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
                 <div class="availability-list in-stock">
-                  وضعیت : <span>موجود در انبار</span>
+                  Availability: <span>300 In Stock</span>
                 </div>
                 <div class="clockdiv">
                   <div data-countdown="2021/12/31"></div>
@@ -1684,12 +1731,14 @@
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1702,12 +1751,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/8.jpg"
+                    src="assets/images/product-image/8.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/10.jpg"
+                    src="assets/images/product-image/10.jpg"
                     alt=""
                   />
                 </a>
@@ -1716,7 +1765,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -1725,15 +1774,15 @@
                 </div>
               </div>
               <ul class="product-flag">
-                <li class="new">جدید</li>
+                <li class="new">New</li>
               </ul>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -1745,13 +1794,13 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
                 <div class="availability-list in-stock">
-                  وضعیت : <span>موجود در انبار</span>
+                  Availability: <span>300 In Stock</span>
                 </div>
                 <div class="clockdiv">
                   <div data-countdown="2021/12/31"></div>
@@ -1759,12 +1808,14 @@
               </div>
               <div class="add-to-link">
                 <ul>
-                  <li class="cart"><a class="cart-btn" href="#">خرید</a></li>
-                  <li>
-                    <NuxtLink to="/wishlist"><i class="icon-heart"></i></NuxtLink>
+                  <li class="cart">
+                    <a class="cart-btn" href="#">ADD TO CART </a>
                   </li>
                   <li>
-                    <NuxtLink to="/compare"><i class="icon-shuffle"></i></NuxtLink>
+                    <a href="wishlist.html"><i class="icon-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="compare.html"><i class="icon-shuffle"></i></a>
                   </li>
                 </ul>
               </div>
@@ -1785,7 +1836,7 @@
           <div class="col-md-12">
             <div class="banner-wrapper">
               <a href="shop-4-column.html"
-                ><img src="~/assets/images/banner-image/4.jpg" alt=""
+                ><img src="assets/images/banner-image/4.jpg" alt=""
               /></a>
             </div>
           </div>
@@ -1799,23 +1850,25 @@
   <section class="category-tab-area mt-60px mb-40px">
     <div class="container">
       <div class="section-title d-flex">
-        <h2>صوتی و تصویری</h2>
+        <h2>Audio & Video</h2>
         <!-- Nav tabs -->
         <ul
           class="nav nav-tabs sub-category d-flex justify-content-end flex-grow-1"
         >
           <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" href="#tab-1"
-              >تلویزیون</a
+              >Televisions</a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2"
-              >گیرنده تلویزیون</a
+              >TV Receivers</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">بلندگو</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3"
+              >Projectors</a
+            >
           </li>
         </ul>
       </div>
@@ -1830,7 +1883,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/5.jpg" alt=""
+                  ><img src="assets/images/banner-image/5.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -1844,12 +1897,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -1858,7 +1911,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -1867,15 +1920,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -1887,26 +1940,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -1921,12 +1972,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -1935,7 +1986,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -1944,15 +1995,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -1964,8 +2015,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -1973,19 +2024,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2000,12 +2049,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -2014,7 +2063,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2023,15 +2072,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2043,26 +2092,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2077,12 +2124,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -2091,7 +2138,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2100,15 +2147,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2120,26 +2167,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2154,12 +2199,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -2168,7 +2213,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2177,15 +2222,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2197,26 +2242,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2231,12 +2274,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -2245,7 +2288,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2254,15 +2297,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2274,26 +2317,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2308,12 +2349,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -2322,7 +2363,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2331,15 +2372,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2351,26 +2392,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2385,12 +2424,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -2399,7 +2438,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2408,15 +2447,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2428,26 +2467,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2462,12 +2499,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -2476,7 +2513,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2485,15 +2522,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2505,26 +2542,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2539,12 +2574,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -2553,7 +2588,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2562,15 +2597,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2582,26 +2617,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2616,12 +2649,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -2630,7 +2663,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2639,15 +2672,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2659,26 +2692,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2693,12 +2724,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -2707,7 +2738,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2716,15 +2747,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2736,26 +2767,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2770,12 +2799,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -2784,7 +2813,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2793,15 +2822,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2813,26 +2842,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2847,12 +2874,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -2861,7 +2888,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2870,15 +2897,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2890,26 +2917,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -2924,12 +2949,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -2938,7 +2963,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -2947,15 +2972,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -2967,26 +2992,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3001,12 +3024,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -3015,7 +3038,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3024,15 +3047,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3044,26 +3067,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3078,12 +3099,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -3092,7 +3113,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3101,15 +3122,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3121,26 +3142,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3167,7 +3186,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/5.jpg" alt=""
+                  ><img src="assets/images/banner-image/5.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -3181,12 +3200,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -3195,7 +3214,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3204,15 +3223,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3224,26 +3243,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3258,12 +3275,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -3272,7 +3289,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3281,15 +3298,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3301,8 +3318,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -3310,19 +3327,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3337,12 +3352,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -3351,7 +3366,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3360,15 +3375,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3380,26 +3395,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3414,12 +3427,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -3428,7 +3441,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3437,15 +3450,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3457,26 +3470,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3491,12 +3502,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -3505,7 +3516,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3514,15 +3525,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3534,26 +3545,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3568,12 +3577,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -3582,7 +3591,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3591,15 +3600,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3611,26 +3620,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3645,12 +3652,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -3659,7 +3666,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3668,15 +3675,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3688,26 +3695,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3722,12 +3727,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -3736,7 +3741,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3745,15 +3750,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3765,26 +3770,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3799,12 +3802,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -3813,7 +3816,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3822,15 +3825,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3842,26 +3845,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3876,12 +3877,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -3890,7 +3891,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3899,15 +3900,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3919,26 +3920,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -3953,12 +3952,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -3967,7 +3966,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -3976,15 +3975,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -3996,26 +3995,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4030,12 +4027,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -4044,7 +4041,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4053,15 +4050,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4073,26 +4070,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4107,12 +4102,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -4121,7 +4116,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4130,15 +4125,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4150,26 +4145,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4184,12 +4177,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -4198,7 +4191,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4207,15 +4200,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4227,26 +4220,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4261,12 +4252,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -4275,7 +4266,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4284,15 +4275,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4304,26 +4295,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4338,12 +4327,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -4352,7 +4341,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4361,15 +4350,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4381,26 +4370,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4415,12 +4402,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -4429,7 +4416,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4438,15 +4425,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4458,26 +4445,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4504,7 +4489,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/5.jpg" alt=""
+                  ><img src="assets/images/banner-image/5.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -4518,12 +4503,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -4532,7 +4517,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4541,15 +4526,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4561,26 +4546,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4595,12 +4578,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -4609,7 +4592,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4618,15 +4601,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4638,8 +4621,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -4647,19 +4630,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4674,12 +4655,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -4688,7 +4669,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4697,15 +4678,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4717,26 +4698,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4751,12 +4730,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -4765,7 +4744,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4774,15 +4753,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4794,26 +4773,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4828,12 +4805,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -4842,7 +4819,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4851,15 +4828,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4871,26 +4848,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4905,12 +4880,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -4919,7 +4894,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -4928,15 +4903,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -4948,26 +4923,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -4982,12 +4955,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -4996,7 +4969,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5005,15 +4978,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5025,26 +4998,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5059,12 +5030,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -5073,7 +5044,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5082,15 +5053,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5102,26 +5073,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5136,12 +5105,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -5150,7 +5119,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5159,15 +5128,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5179,26 +5148,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5213,12 +5180,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -5227,7 +5194,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5236,15 +5203,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5256,26 +5223,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5290,12 +5255,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -5304,7 +5269,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5313,15 +5278,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5333,26 +5298,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5367,12 +5330,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -5381,7 +5344,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5390,15 +5353,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5410,26 +5373,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5444,12 +5405,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -5458,7 +5419,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5467,15 +5428,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5487,26 +5448,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5521,12 +5480,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -5535,7 +5494,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5544,15 +5503,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5564,26 +5523,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5598,12 +5555,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -5612,7 +5569,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5621,15 +5578,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5641,26 +5598,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5675,12 +5630,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -5689,7 +5644,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5698,15 +5653,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5718,26 +5673,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5752,12 +5705,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -5766,7 +5719,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5775,15 +5728,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5795,26 +5748,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5841,24 +5792,24 @@
   <section class="category-tab-area mb-40px">
     <div class="container">
       <div class="section-title d-flex">
-        <h2>دوربین</h2>
+        <h2>Camera & Photo</h2>
         <!-- Nav tabs -->
         <ul
           class="nav nav-tabs sub-category d-flex justify-content-end flex-grow-1"
         >
           <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" href="#tab-4"
-              >دوربین دیجیتال</a
+              >Digital Cameras</a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-5"
-              >دوربین فیلم برداری</a
+              >Camcorders</a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-6"
-              >کواد کوپتر دوربین دار</a
+              >Camera Drones</a
             >
           </li>
         </ul>
@@ -5874,7 +5825,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/6.jpg" alt=""
+                  ><img src="assets/images/banner-image/6.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -5888,12 +5839,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -5902,7 +5853,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5911,15 +5862,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -5931,26 +5882,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -5965,12 +5914,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -5979,7 +5928,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -5988,15 +5937,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6008,8 +5957,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -6017,19 +5966,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6044,12 +5991,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -6058,7 +6005,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6067,15 +6014,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6087,26 +6034,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6121,12 +6066,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -6135,7 +6080,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6144,15 +6089,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6164,26 +6109,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6198,12 +6141,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -6212,7 +6155,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6221,15 +6164,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6241,26 +6184,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6275,12 +6216,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -6289,7 +6230,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6298,15 +6239,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6318,26 +6259,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6352,12 +6291,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -6366,7 +6305,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6375,15 +6314,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6395,26 +6334,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6429,12 +6366,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -6443,7 +6380,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6452,15 +6389,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6472,26 +6409,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6506,12 +6441,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -6520,7 +6455,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6529,15 +6464,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6549,26 +6484,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6583,12 +6516,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -6597,7 +6530,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6606,15 +6539,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6626,26 +6559,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6660,12 +6591,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -6674,7 +6605,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6683,15 +6614,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6703,26 +6634,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6737,12 +6666,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -6751,7 +6680,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6760,15 +6689,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6780,26 +6709,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6814,12 +6741,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -6828,7 +6755,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6837,15 +6764,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6857,26 +6784,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6891,12 +6816,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -6905,7 +6830,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6914,15 +6839,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -6934,26 +6859,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -6968,12 +6891,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -6982,7 +6905,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -6991,15 +6914,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7011,26 +6934,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7045,12 +6966,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -7059,7 +6980,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7068,15 +6989,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7088,26 +7009,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7122,12 +7041,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -7136,7 +7055,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7145,15 +7064,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7165,26 +7084,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7211,7 +7128,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/6.jpg" alt=""
+                  ><img src="assets/images/banner-image/6.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -7225,12 +7142,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -7239,7 +7156,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7248,15 +7165,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7268,26 +7185,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7302,12 +7217,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -7316,7 +7231,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7325,15 +7240,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7345,8 +7260,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -7354,19 +7269,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7381,12 +7294,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -7395,7 +7308,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7404,15 +7317,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7424,26 +7337,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7458,12 +7369,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -7472,7 +7383,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7481,15 +7392,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7501,26 +7412,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7535,12 +7444,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -7549,7 +7458,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7558,15 +7467,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7578,26 +7487,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7612,12 +7519,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -7626,7 +7533,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7635,15 +7542,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7655,26 +7562,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7689,12 +7594,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -7703,7 +7608,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7712,15 +7617,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7732,26 +7637,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7766,12 +7669,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -7780,7 +7683,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7789,15 +7692,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7809,26 +7712,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7843,12 +7744,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -7857,7 +7758,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7866,15 +7767,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7886,26 +7787,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7920,12 +7819,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -7934,7 +7833,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -7943,15 +7842,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -7963,26 +7862,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -7997,12 +7894,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -8011,7 +7908,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8020,15 +7917,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8040,26 +7937,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8074,12 +7969,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -8088,7 +7983,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8097,15 +7992,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8117,26 +8012,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8151,12 +8044,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -8165,7 +8058,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8174,15 +8067,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8194,26 +8087,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8228,12 +8119,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -8242,7 +8133,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8251,15 +8142,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8271,26 +8162,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8305,12 +8194,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -8319,7 +8208,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8328,15 +8217,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8348,26 +8237,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8382,12 +8269,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -8396,7 +8283,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8405,15 +8292,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8425,26 +8312,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8459,12 +8344,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -8473,7 +8358,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8482,15 +8367,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8502,26 +8387,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8548,7 +8431,7 @@
             >
               <div class="banner-wrapper">
                 <a href="shop-4-column.html"
-                  ><img src="~/assets/images/banner-image/6.jpg" alt=""
+                  ><img src="assets/images/banner-image/6.jpg" alt=""
                 /></a>
               </div>
             </div>
@@ -8562,12 +8445,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -8576,7 +8459,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8585,15 +8468,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8605,26 +8488,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8639,12 +8520,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                         </a>
@@ -8653,7 +8534,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8662,15 +8543,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8682,8 +8563,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -8691,19 +8572,17 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8718,12 +8597,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                         </a>
@@ -8732,7 +8611,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8741,15 +8620,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8761,26 +8640,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8795,12 +8672,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -8809,7 +8686,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8818,15 +8695,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8838,26 +8715,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8872,12 +8747,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -8886,7 +8761,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8895,15 +8770,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8915,26 +8790,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -8949,12 +8822,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/16.jpg"
+                            src="assets/images/product-image/16.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/17.jpg"
+                            src="assets/images/product-image/17.jpg"
                             alt=""
                           />
                         </a>
@@ -8963,7 +8836,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -8972,15 +8845,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -8992,26 +8865,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9026,12 +8897,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/18.jpg"
+                            src="assets/images/product-image/18.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/19.jpg"
+                            src="assets/images/product-image/19.jpg"
                             alt=""
                           />
                         </a>
@@ -9040,7 +8911,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9049,15 +8920,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9069,26 +8940,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9103,12 +8972,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/20.jpg"
+                            src="assets/images/product-image/20.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/21.jpg"
+                            src="assets/images/product-image/21.jpg"
                             alt=""
                           />
                         </a>
@@ -9117,7 +8986,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9126,15 +8995,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9146,26 +9015,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9180,12 +9047,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/22.jpg"
+                            src="assets/images/product-image/22.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/23.jpg"
+                            src="assets/images/product-image/23.jpg"
                             alt=""
                           />
                         </a>
@@ -9194,7 +9061,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9203,15 +9070,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9223,26 +9090,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9257,12 +9122,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/24.jpg"
+                            src="assets/images/product-image/24.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/25.jpg"
+                            src="assets/images/product-image/25.jpg"
                             alt=""
                           />
                         </a>
@@ -9271,7 +9136,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9280,15 +9145,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9300,26 +9165,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9334,12 +9197,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/26.jpg"
+                            src="assets/images/product-image/26.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/27.jpg"
+                            src="assets/images/product-image/27.jpg"
                             alt=""
                           />
                         </a>
@@ -9348,7 +9211,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9357,15 +9220,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9377,26 +9240,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9411,12 +9272,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/28.jpg"
+                            src="assets/images/product-image/28.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/29.jpg"
+                            src="assets/images/product-image/29.jpg"
                             alt=""
                           />
                         </a>
@@ -9425,7 +9286,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9434,15 +9295,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9454,26 +9315,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9488,12 +9347,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/6.jpg"
+                            src="assets/images/product-image/6.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/7.jpg"
+                            src="assets/images/product-image/7.jpg"
                             alt=""
                           />
                         </a>
@@ -9502,7 +9361,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9511,15 +9370,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9531,26 +9390,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9565,12 +9422,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/8.jpg"
+                            src="assets/images/product-image/8.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/9.jpg"
+                            src="assets/images/product-image/9.jpg"
                             alt=""
                           />
                         </a>
@@ -9579,7 +9436,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9588,15 +9445,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9608,26 +9465,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9642,12 +9497,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/10.jpg"
+                            src="assets/images/product-image/10.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/11.jpg"
+                            src="assets/images/product-image/11.jpg"
                             alt=""
                           />
                         </a>
@@ -9656,7 +9511,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9665,15 +9520,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9685,26 +9540,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9719,12 +9572,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/12.jpg"
+                            src="assets/images/product-image/12.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/13.jpg"
+                            src="assets/images/product-image/13.jpg"
                             alt=""
                           />
                         </a>
@@ -9733,7 +9586,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9742,15 +9595,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9762,26 +9615,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9796,12 +9647,12 @@
                         <a href="single-product.html" class="thumbnail">
                           <img
                             class="first-img"
-                            src="~/assets/images/product-image/14.jpg"
+                            src="assets/images/product-image/14.jpg"
                             alt=""
                           />
                           <img
                             class="second-img"
-                            src="~/assets/images/product-image/15.jpg"
+                            src="assets/images/product-image/15.jpg"
                             alt=""
                           />
                         </a>
@@ -9810,7 +9661,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -9819,15 +9670,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -9839,26 +9690,24 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a title="افزودن به سبد خرید" href="#"
+                            <a title="Add to cart" href="#"
                               ><i class="icon-bag"></i
                             ></a>
                           </li>
                           <li>
-                            <a
-                              title="افزودن به لیست علاقه مندی ها"
-                              href="wishlist.html"
+                            <a title="Add to wishlist" href="wishlist.html"
                               ><i class="icon-heart"></i
                             ></a>
                           </li>
                           <li>
-                            <a title="مقایسه محصول" href="compare.html"
+                            <a title="Add to compare" href="compare.html"
                               ><i class="icon-shuffle"></i
                             ></a>
                           </li>
@@ -9887,39 +9736,25 @@
       <div class="brand-slider slider-nav-style-1 slider-nav-style-2">
         <div class="brand-slider-wrapper swiper-wrapper">
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/1.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/1.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/2.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/2.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/3.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/3.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/4.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/4.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/5.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/5.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/1.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/1.jpg" alt="" /></a>
           </div>
           <div class="brand-slider-item swiper-slide">
-            <a href="#"
-              ><img src="~/assets/images/brand-logo/2.jpg" alt=""
-            /></a>
+            <a href="#"><img src="assets/images/brand-logo/2.jpg" alt="" /></a>
           </div>
         </div>
         <!-- Add Arrows -->
@@ -9938,7 +9773,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2 class="section-heading">محصولات جدید</h2>
+            <h2 class="section-heading">Recently Added</h2>
           </div>
         </div>
       </div>
@@ -9950,12 +9785,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/28.jpg"
+                    src="assets/images/product-image/28.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/29.jpg"
+                    src="assets/images/product-image/29.jpg"
                     alt=""
                   />
                 </a>
@@ -9964,7 +9799,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -9974,11 +9809,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -9990,7 +9825,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10002,12 +9837,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/8.jpg"
+                    src="assets/images/product-image/8.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/10.jpg"
+                    src="assets/images/product-image/10.jpg"
                     alt=""
                   />
                 </a>
@@ -10016,7 +9851,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10026,11 +9861,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10042,8 +9877,8 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
@@ -10056,12 +9891,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/15.jpg"
+                    src="assets/images/product-image/15.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/16.jpg"
+                    src="assets/images/product-image/16.jpg"
                     alt=""
                   />
                 </a>
@@ -10070,7 +9905,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10080,11 +9915,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10096,7 +9931,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10108,12 +9943,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/17.jpg"
+                    src="assets/images/product-image/17.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/18.jpg"
+                    src="assets/images/product-image/18.jpg"
                     alt=""
                   />
                 </a>
@@ -10122,7 +9957,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10132,11 +9967,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>Graphic Corner</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10148,7 +9983,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10160,12 +9995,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/19.jpg"
+                    src="assets/images/product-image/19.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/20.jpg"
+                    src="assets/images/product-image/20.jpg"
                     alt=""
                   />
                 </a>
@@ -10174,7 +10009,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10184,11 +10019,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10200,7 +10035,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10212,12 +10047,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/21.jpg"
+                    src="assets/images/product-image/21.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/22.jpg"
+                    src="assets/images/product-image/22.jpg"
                     alt=""
                   />
                 </a>
@@ -10226,7 +10061,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10236,11 +10071,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>Graphic Corner</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10252,8 +10087,8 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price">90.000 تومان</li>
-                    <li class="current-price">81.000 تومان</li>
+                    <li class="old-price">€23.90</li>
+                    <li class="current-price">€21.51</li>
                     <li class="discount-price">-10%</li>
                   </ul>
                 </div>
@@ -10266,12 +10101,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/23.jpg"
+                    src="assets/images/product-image/23.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/24.jpg"
+                    src="assets/images/product-image/24.jpg"
                     alt=""
                   />
                 </a>
@@ -10280,7 +10115,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10290,11 +10125,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10306,7 +10141,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10318,12 +10153,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/25.jpg"
+                    src="assets/images/product-image/25.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/26.jpg"
+                    src="assets/images/product-image/26.jpg"
                     alt=""
                   />
                 </a>
@@ -10332,7 +10167,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10342,11 +10177,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10358,7 +10193,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10370,12 +10205,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/27.jpg"
+                    src="assets/images/product-image/27.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/28.jpg"
+                    src="assets/images/product-image/28.jpg"
                     alt=""
                   />
                 </a>
@@ -10384,7 +10219,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10394,11 +10229,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10410,7 +10245,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10422,12 +10257,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/29.jpg"
+                    src="assets/images/product-image/29.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/29.jpg"
+                    src="assets/images/product-image/29.jpg"
                     alt=""
                   />
                 </a>
@@ -10436,7 +10271,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10446,11 +10281,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10462,7 +10297,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10474,12 +10309,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/8.jpg"
+                    src="assets/images/product-image/8.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/10.jpg"
+                    src="assets/images/product-image/10.jpg"
                     alt=""
                   />
                 </a>
@@ -10488,7 +10323,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10498,11 +10333,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10514,7 +10349,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10526,12 +10361,12 @@
                 <a href="single-product.html" class="thumbnail">
                   <img
                     class="first-img"
-                    src="~/assets/images/product-image/11.jpg"
+                    src="assets/images/product-image/11.jpg"
                     alt=""
                   />
                   <img
                     class="second-img"
-                    src="~/assets/images/product-image/12.jpg"
+                    src="assets/images/product-image/12.jpg"
                     alt=""
                   />
                 </a>
@@ -10540,7 +10375,7 @@
                     class="quick_view"
                     href="#"
                     data-link-action="quickview"
-                    title="مشاهده سریع"
+                    title="Quick view"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                   >
@@ -10550,11 +10385,11 @@
               </div>
               <div class="product-decs">
                 <a class="inner-link" href="shop-4-column.html"
-                  ><span>عنوان محصول</span></a
+                  ><span>STUDIO DESIGN</span></a
                 >
                 <h2>
                   <a href="single-product.html" class="product-link"
-                    >توضیحات مربوط به محصول</a
+                    >New Balance Arishi Sport v1</a
                   >
                 </h2>
                 <div class="rating-product">
@@ -10566,7 +10401,7 @@
                 </div>
                 <div class="pricing-meta">
                   <ul>
-                    <li class="old-price not-cut">50.000 تومان</li>
+                    <li class="old-price not-cut">€18.90</li>
                   </ul>
                 </div>
               </div>
@@ -10589,14 +10424,14 @@
         <div class="col-md-6 col-xs-12">
           <div class="banner-wrapper">
             <a href="shop-4-column.html"
-              ><img src="~/assets/images/banner-image/7.jpg" alt=""
+              ><img src="assets/images/banner-image/7.jpg" alt=""
             /></a>
           </div>
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="banner-wrapper">
             <a href="shop-4-column.html"
-              ><img src="~/assets/images/banner-image/8.jpg" alt=""
+              ><img src="assets/images/banner-image/8.jpg" alt=""
             /></a>
           </div>
         </div>
@@ -10604,4 +10439,5 @@
     </div>
   </div>
   <!-- Banner Area End -->
+
 </template>

@@ -1,3 +1,9 @@
+<script lang="ts">
+definePageMeta({
+  title: "Contact",
+  layout: "default",
+});
+</script>
 <template>
   <!-- Breadcrumb Area Start -->
   <div class="breadcrumb-area">
@@ -6,8 +12,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li><NuxtLink to="/">صفحه اصلی</NuxtLink></li>
-              <li>ارتباط با ما</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Contact Us</li>
             </ul>
           </div>
         </div>
@@ -23,7 +29,7 @@
           <div class="gmap_canvas">
             <iframe
               id="gmap_canvas"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207344.50843900483!2d51.347655249999995!3d35.707573749999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00491ff3dcd9%3A0xf0b3697c567024bc!2sTehran%2C%20Tehran%20Province!5e0!3m2!1sen!2s!4v1675950279100!5m2!1sen!2s"
+              src="https://maps.google.com/maps?q=121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               frameborder="0"
               scrolling="no"
               marginheight="0"
@@ -34,19 +40,15 @@
         </div>
       </div>
       <div class="custom-row-2">
-        <div class="col-lg-4 col-md-5 mb-lm-30px mx-auto">
+        <div class="col-lg-4 col-md-5 mb-lm-30px">
           <div class="contact-info-wrap">
             <div class="single-contact-info">
               <div class="contact-icon">
                 <i class="ion-android-call"></i>
               </div>
               <div class="contact-info-dec">
-                <p class="tm-ltr">
-                  <a href="tel://02100000000">021 0000 0000</a>
-                </p>
-                <p class="tm-ltr">
-                  <a href="tel://02100000000">021 0000 0000</a>
-                </p>
+                <p><a href="tel://0123456789">0123456789</a></p>
+                <p><a href="tel://0123456789">0123456789</a></p>
               </div>
             </div>
             <div class="single-contact-info">
@@ -54,8 +56,8 @@
                 <i class="ion-android-globe"></i>
               </div>
               <div class="contact-info-dec">
-                <p><a href="mailto://example@info.com">example@info.com</a></p>
-                <p><a href="mailto://example@info.com">example@info.com</a></p>
+                <p><a href="mailto://urname@email.com">demo@example.com</a></p>
+                <p><a href="mailto://urwebsitenaem.com">demo@example.com</a></p>
               </div>
             </div>
             <div class="single-contact-info">
@@ -63,12 +65,12 @@
                 <i class="ion-android-pin"></i>
               </div>
               <div class="contact-info-dec">
-                <p>ایران ، تهران ، میدان فردوسی</p>
-                <p>ایران ، مشهد ، میدان فردوسی</p>
+                <p>Address goes here,</p>
+                <p>Address goes here,</p>
               </div>
             </div>
             <div class="contact-social">
-              <h3>شبکات اجتماعی ما</h3>
+              <h3>Follow Us</h3>
               <div class="social-info">
                 <ul>
                   <li>
@@ -94,27 +96,30 @@
         <div class="col-lg-8 col-md-7">
           <div class="contact-form">
             <div class="contact-title mb-30">
-              <h2>ارسال پیام</h2>
+              <h2>Get In Touch</h2>
             </div>
             <form
               class="contact-form-style"
               id="contact-form"
-              action="http://"
+              action="http://whizthemes.com/nazmul/php/mail.php"
               method="post"
             >
               <div class="row">
                 <div class="col-lg-6">
-                  <input name="name" placeholder="* نام" type="text" />
+                  <input name="name" placeholder="Name*" type="text" />
                 </div>
                 <div class="col-lg-6">
-                  <input name="email" placeholder="* ایمیل" type="email" />
+                  <input name="email" placeholder="Email*" type="email" />
                 </div>
                 <div class="col-lg-12">
-                  <input name="subject" placeholder="* موضوع" type="text" />
+                  <input name="subject" placeholder="Subject*" type="text" />
                 </div>
                 <div class="col-lg-12">
-                  <textarea name="message" placeholder="* متن پیام"></textarea>
-                  <button class="submit" type="submit">ارسال</button>
+                  <textarea
+                    name="message"
+                    placeholder="Your Message*"
+                  ></textarea>
+                  <button class="submit" type="submit">SEND</button>
                 </div>
               </div>
             </form>

@@ -6,8 +6,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li><NuxtLink to="/">صفحه اصلی</NuxtLink></li>
-              <li>فروشگاه</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Shop</li>
             </ul>
           </div>
         </div>
@@ -30,20 +30,20 @@
               <a href="#shop-2" data-bs-toggle="tab">
                 <i class="fa fa-list"></i>
               </a>
-              <p>17 محصول وجود دارد.</p>
+              <p>There Are 17 Products.</p>
             </div>
             <!-- Left Side End -->
             <!-- Right Side Start -->
             <div class="select-shoing-wrap d-flex">
               <div class="shot-product">
-                <p>مرتب سازی :</p>
+                <p>Sort By:</p>
               </div>
               <div class="shop-select">
                 <select>
-                  <option value="">جدید ترین</option>
-                  <option value="">قدیمی ترین</option>
-                  <option value="">محبوب ترین</option>
-                  <option value="">پرفروش ترین</option>
+                  <option value="">Sort by newness</option>
+                  <option value="">A to Z</option>
+                  <option value="">Z to A</option>
+                  <option value="">In stock</option>
                 </select>
               </div>
             </div>
@@ -78,7 +78,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -87,15 +87,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Juicy Couture Juicy Quilted T..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -107,16 +107,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€18.90</li>
+                            <li class="current-price">€34.21</li>
+                            <li class="discount-price">-5%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -152,7 +152,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -161,15 +161,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >New Balance Fresh Foam Ka..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -181,16 +181,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€18.90</li>
+                            <li class="current-price">€15.12</li>
+                            <li class="discount-price">-20%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -226,7 +226,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -235,15 +235,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>GRAPHIC CORNER</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Brixton Patrol All Terrain..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -255,14 +255,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -298,7 +298,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -307,15 +307,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>GRAPHIC CORNER</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Juicy Couture Tricot Logo S..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -327,14 +327,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -370,7 +370,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -379,15 +379,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >توضیحات مربوط به محصول</a
+                            >New Balance Arishi Sport v1</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -399,14 +399,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -442,7 +442,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -451,15 +451,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>GRAPHIC CORNAR</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Fila Locker Room Varsit...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -471,14 +471,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -514,7 +514,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -523,15 +523,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Water and Wind Resista..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -543,14 +543,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -586,7 +586,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -595,15 +595,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >New Luxury Men's Slim Fi...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -615,14 +615,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€29.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -658,7 +658,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -667,15 +667,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Originals Kaval Win...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -687,8 +687,8 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
+                            <li class="old-price">€23.90</li>
+                            <li class="current-price">€21.51</li>
                             <li class="discount-price">-10%</li>
                           </ul>
                         </div>
@@ -696,7 +696,7 @@
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -732,7 +732,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -741,15 +741,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Brixton Patrol All Terra...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -761,14 +761,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -804,7 +804,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -813,15 +813,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Madden by Steve Madden C...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -833,16 +833,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€11.90</li>
+                            <li class="current-price">€10.12</li>
+                            <li class="discount-price">-15%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -878,7 +878,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -887,15 +887,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Juicy Couture Juicy Quilted T..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -907,16 +907,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€35.90</li>
+                            <li class="current-price">€34.11</li>
+                            <li class="discount-price">-5%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -952,7 +952,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -961,15 +961,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Juicy Couture Juicy Quilted T..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -981,16 +981,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€18.90</li>
+                            <li class="current-price">€34.21</li>
+                            <li class="discount-price">-5%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -1026,7 +1026,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -1035,15 +1035,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>STUDIO DESIGN</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >New Balance Fresh Foam Ka..</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -1055,16 +1055,16 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price">90.000 تومان</li>
-                            <li class="current-price">81.000 تومان</li>
-                            <li class="discount-price">-10%</li>
+                            <li class="old-price">€18.90</li>
+                            <li class="current-price">€15.12</li>
+                            <li class="discount-price">-20%</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -1100,7 +1100,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -1109,15 +1109,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>GRAPHIC CORNER</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Brixton Patrol All Terra...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -1129,14 +1129,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -1172,7 +1172,7 @@
                             class="quick_view"
                             href="#"
                             data-link-action="quickview"
-                            title="مشاهده سریع"
+                            title="Quick view"
                             data-bs-toggle="modal"
                             data-bs-target="#exampleModal"
                           >
@@ -1181,15 +1181,15 @@
                         </div>
                       </div>
                       <ul class="product-flag">
-                        <li class="new">جدید</li>
+                        <li class="new">New</li>
                       </ul>
                       <div class="product-decs">
                         <a class="inner-link" href="shop-4-column.html"
-                          ><span>عنوان محصول</span></a
+                          ><span>GRAPHIC CORNER</span></a
                         >
                         <h2>
                           <a href="single-product.html" class="product-link"
-                            >جزئیات مربوط به محصول فروشگا...</a
+                            >Juicy Couture Tricot Log...</a
                           >
                         </h2>
                         <div class="rating-product">
@@ -1201,14 +1201,14 @@
                         </div>
                         <div class="pricing-meta">
                           <ul>
-                            <li class="old-price not-cut">50.000 تومان</li>
+                            <li class="old-price not-cut">€18.90</li>
                           </ul>
                         </div>
                       </div>
                       <div class="add-to-link">
                         <ul>
                           <li class="cart">
-                            <a class="cart-btn" href="#">خرید</a>
+                            <a class="cart-btn" href="#">ADD TO CART </a>
                           </li>
                           <li>
                             <a href="wishlist.html"
@@ -1253,7 +1253,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1262,7 +1262,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1270,13 +1270,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1288,56 +1288,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1373,7 +1367,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1382,7 +1376,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1390,13 +1384,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Juicy Couture Tricot Logo Stripe Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1408,56 +1402,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1493,7 +1481,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1502,7 +1490,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1510,13 +1498,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >New Balance Fresh Foam LAZR v1 Sport</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1528,56 +1516,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1613,7 +1595,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1622,7 +1604,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1630,13 +1612,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Juicy Couture Solid Sleeve Puffer Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1648,56 +1630,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1733,7 +1709,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1742,7 +1718,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1750,13 +1726,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >New Balance Fresh Foam Kaymin</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1768,56 +1744,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1853,7 +1823,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1862,7 +1832,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1870,13 +1840,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Water and Wind Resistant Insulated Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -1888,56 +1858,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -1973,7 +1937,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -1982,7 +1946,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -1990,13 +1954,14 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Trans-Weight Hooded Wind and Water Resistant
+                                  Shell</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2008,56 +1973,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2093,7 +2052,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2102,7 +2061,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2110,13 +2069,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Madden by Steve Madden Cale 6</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2128,56 +2087,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2213,7 +2166,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2222,7 +2175,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2230,13 +2183,14 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Calvin Klein Jeans Reflective Logo Full
+                                  Zip</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2248,56 +2202,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2333,7 +2281,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2342,7 +2290,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2350,13 +2298,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >New Balance Fresh Foam Arishi Sport</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2368,56 +2316,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2453,7 +2395,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2462,7 +2404,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2470,13 +2412,14 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>STUDIO DESIGN</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Juicy Couture Juicy Quilted Terry Track
+                                  Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2488,56 +2431,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2573,7 +2510,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2582,7 +2519,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2590,13 +2527,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2608,56 +2545,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2693,7 +2624,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2702,7 +2633,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2710,13 +2641,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2728,56 +2659,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2813,7 +2738,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2822,7 +2747,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2830,13 +2755,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2848,56 +2773,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -2933,7 +2852,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -2942,7 +2861,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -2950,13 +2869,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -2968,56 +2887,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -3053,7 +2966,7 @@
                                   class="quick_view"
                                   href="#"
                                   data-link-action="quickview"
-                                  title="مشاهده سریع"
+                                  title="Quick view"
                                   data-bs-toggle="modal"
                                   data-bs-target="#exampleModal"
                                 >
@@ -3062,7 +2975,7 @@
                               </div>
                             </div>
                             <ul class="product-flag">
-                              <li class="new">جدید</li>
+                              <li class="new">New</li>
                             </ul>
                           </div>
                         </div>
@@ -3070,13 +2983,13 @@
                           <div class="product-desc-wrap">
                             <div class="product-decs">
                               <a class="inner-link" href="shop-4-column.html"
-                                ><span>عنوان محصول</span></a
+                                ><span>GRAPHIC CORNER</span></a
                               >
                               <h2>
                                 <a
                                   href="single-product.html"
                                   class="product-link"
-                                  >جزئیات مربوط به محصول فروشگاه</a
+                                  >Fila Locker Room Varsity Jacket</a
                                 >
                               </h2>
                               <div class="rating-product">
@@ -3088,56 +3001,50 @@
                               </div>
                               <div class="product-intro-info">
                                 <p>
-                                  لورم ایپسوم متن ساختگی با تولید سادگی از صنعت
-                                  است.
+                                  Create a cool and sporty look with the FILA®
+                                  Locker Room Varsity Jacket.
                                 </p>
+                                <p>Comfortable cotton-blend fabrication.</p>
                                 <p>
-                                  چاپگرها و متون بلکه روزنامه و مجله در ستون که
-                                  لازم است.
+                                  Classic varsity jacket features brand details
+                                  throughout.
                                 </p>
-                                <p>
-                                  برای شرایط فعلی مورد نیاز و بهبود ابزارهای
-                                  کاربردی می باشد.
-                                </p>
-                                <p>
-                                  محصولات زیادی در شصت و سه درصد گذشته حال و
-                                  آینده است.
-                                </p>
+                                <p>Flat knit collar.</p>
                               </div>
                             </div>
                             <div class="box-inner">
                               <div class="in-stock">
-                                وضعیت : <span>موجود در انبار</span>
+                                Availability: <span>299 In Stock</span>
                               </div>
                               <div class="pricing-meta">
                                 <ul>
-                                  <li class="old-price not-cut">
-                                    50.000 تومان
-                                  </li>
+                                  <li class="old-price not-cut">€9.90</li>
                                 </ul>
                               </div>
                               <div class="add-to-link">
                                 <ul>
                                   <li class="cart">
                                     <a
-                                      title="افزودن به سبد خرید"
+                                      title="Add to cart"
                                       class="cart-btn"
                                       href="#"
-                                      >افزودن به سبد خرید
+                                      >ADD TO CART
                                     </a>
                                   </li>
                                   <li>
                                     <a
                                       href="wishlist.html"
-                                      title="افزودن به لیست علاقه مندی ها"
-                                      ><i class="icon-heart"></i> افزودن به لیست
-                                      علاقه مندی ها</a
+                                      title="Add to wishlist"
+                                      ><i class="icon-heart"></i> Add to
+                                      Wishlist</a
                                     >
                                   </li>
                                   <li>
-                                    <a href="compare.html" title="مقایسه محصول"
-                                      ><i class="icon-shuffle"></i> مقایسه
-                                      محصول</a
+                                    <a
+                                      href="compare.html"
+                                      title="Add to compare"
+                                      ><i class="icon-shuffle"></i> Add to
+                                      Compare</a
                                     >
                                   </li>
                                 </ul>
@@ -3158,14 +3065,14 @@
               <ul>
                 <li>
                   <a class="prev" href="#"
-                    ><i class="ion-ios-arrow-right"></i
+                    ><i class="ion-ios-arrow-left"></i
                   ></a>
                 </li>
                 <li><a class="active" href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li>
                   <a class="next" href="#"
-                    ><i class="ion-ios-arrow-left"></i
+                    ><i class="ion-ios-arrow-right"></i
                   ></a>
                 </li>
               </ul>

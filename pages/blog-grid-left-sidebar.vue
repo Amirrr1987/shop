@@ -1,3 +1,9 @@
+<script lang="ts">
+definePageMeta({
+  title: "Blog grid left sidebar",
+  layout: "default",
+});
+</script>
 <template>
   <!-- Breadcrumb Area Start -->
   <div class="breadcrumb-area">
@@ -6,8 +12,8 @@
         <div class="col-md-12">
           <div class="breadcrumb-content">
             <ul class="nav">
-              <li><NuxtLink to="/">صفحه اصلی</NuxtLink></li>
-              <li>وبلاگ (شبکه ای) - با نوار کناری چپ</li>
+              <li><a href="index.html">Home</a></li>
+              <li>Blog Grid Left Sidebar</li>
             </ul>
           </div>
         </div>
@@ -19,51 +25,48 @@
   <div class="shop-category-area blog-grid mtb-60px">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-md-12">
+        <div class="col-lg-9 order-lg-last col-md-12 order-md-first">
           <div class="blog-posts">
             <div class="row">
               <div class="col-md-6 mb-res-sm-30px">
                 <div class="single-blog-post mb-30px blog-grid-post">
                   <div class="blog-post-media">
                     <div class="blog-image">
-                      <NuxtLink to="/blog-single-left-sidebar"
+                      <a href="blog-single-left-sidebar.html"
                         ><img
                           src="assets/images/blog-image/blog-1.jpg"
                           alt="blog"
                           class="img-responsive"
-                      /></NuxtLink>
+                      /></a>
                     </div>
                   </div>
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -78,28 +81,28 @@
                     >
                       <div class="blog-gallery swiper-wrapper">
                         <div class="gallery-item swiper-slide">
-                          <NuxtLink to="/blog-single-left-sidebar"
+                          <a href="blog-single-left-sidebar.html"
                             ><img
                               src="assets/images/blog-image/blog-2.jpg"
                               alt="blog"
                               class="img-responsive"
-                          /></NuxtLink>
+                          /></a>
                         </div>
                         <div class="gallery-item swiper-slide">
-                          <NuxtLink to="/blog-single-left-sidebar"
+                          <a href="blog-single-left-sidebar.html"
                             ><img
                               src="assets/images/blog-image/blog-3.jpg"
                               alt="blog"
                               class="img-responsive"
-                          /></NuxtLink>
+                          /></a>
                         </div>
                         <div class="gallery-item swiper-slide">
-                          <NuxtLink to="/blog-single-left-sidebar"
+                          <a href="blog-single-left-sidebar.html"
                             ><img
                               src="assets/images/blog-image/blog-4.jpg"
                               alt="blog"
                               class="img-responsive"
-                          /></NuxtLink>
+                          /></a>
                         </div>
                       </div>
                       <!-- Add Arrows -->
@@ -111,34 +114,31 @@
                   </div>
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -154,40 +154,37 @@
                         width="500"
                         height="320"
                         allow="autoplay"
-                        src="https://w.soundcloud.com/player/"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/182537870&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
                       ></iframe>
                     </div>
                   </div>
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -199,7 +196,7 @@
                   <div class="blog-post-media">
                     <div class="blog-post-video">
                       <iframe
-                        src="https://www.youtube.com/embed/"
+                        src="https://www.youtube.com/embed/tvPnrfQCiCo"
                         allow="autoplay; encrypted-media"
                         allowfullscreen=""
                         width="540"
@@ -210,34 +207,31 @@
 
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -248,44 +242,41 @@
                 <div class="single-blog-post mb-30px blog-grid-post">
                   <div class="blog-post-media">
                     <div class="blog-image">
-                      <NuxtLink to="/blog-single-left-sidebar"
+                      <a href="blog-single-left-sidebar.html"
                         ><img
                           src="assets/images/blog-image/blog-3.jpg"
                           alt="blog"
                           class="img-responsive"
-                      /></NuxtLink>
+                      /></a>
                     </div>
                   </div>
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -296,44 +287,41 @@
                 <div class="single-blog-post mb-30px blog-grid-post">
                   <div class="blog-post-media">
                     <div class="blog-image">
-                      <NuxtLink to="/blog-single-left-sidebar"
+                      <a href="blog-single-left-sidebar.html"
                         ><img
                           src="assets/images/blog-image/blog-4.jpg"
                           alt="blog"
                           class="img-responsive"
-                      /></NuxtLink>
+                      /></a>
                     </div>
                   </div>
                   <div class="blog-post-content-inner mt-30px">
                     <h4 class="blog-title">
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی</NuxtLink
+                      <a href="blog-single-left-sidebar.html"
+                        >This is Third Post For XipBlog</a
                       >
                     </h4>
                     <ul class="blog-page-meta">
                       <li>
-                        <a href="#"><i class="ion-person"></i> ادمین</a>
+                        <a href="#"><i class="ion-person"></i> Admin</a>
                       </li>
                       <li>
                         <a href="#"
-                          ><i class="ion-calendar"></i> 24 بهمن 1401</a
+                          ><i class="ion-calendar"></i> 24 April, 2020</a
                         >
                       </li>
                     </ul>
                     <p>
-                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                      و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                      روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                      شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                      بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه
-                      درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می
-                      طلبد.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Rerum eius expedita hic, vel minima minus reiciendis
+                      consequuntur ab beatae necessitatibus amet magni itaque,
+                      nostrum vero eos nobis modi temporibus recusandae.
                     </p>
                     <a
                       class="read-more-btn"
                       href="blog-single-left-sidebar.html"
                     >
-                      مطالعه بیشتر
+                      Read More
                       <i class="ion-android-arrow-dropright-circle"></i
                     ></a>
                   </div>
@@ -346,26 +334,31 @@
           <div class="pro-pagination-style text-center mb-md-30px mb-lm-30px">
             <ul>
               <li>
-                <a class="prev" href="#"><i class="ion-ios-arrow-right"></i></a>
+                <a class="prev" href="#"><i class="ion-ios-arrow-left"></i></a>
               </li>
               <li><a class="active" href="#">1</a></li>
               <li><a href="#">2</a></li>
               <li>
-                <a class="next" href="#"><i class="ion-ios-arrow-left"></i></a>
+                <a class="next" href="#"><i class="ion-ios-arrow-right"></i></a>
               </li>
             </ul>
           </div>
           <!--  Pagination Area End -->
         </div>
         <!-- Sidebar Area Start -->
-        <div class="col-lg-3 col-md-12">
+        <div
+          class="col-lg-3 order-lg-first col-md-12 order-md-last mb-res-md-60px mb-res-sm-60px"
+        >
           <div class="left-sidebar shop-sidebar-wrap">
             <!-- Sidebar single item -->
             <div class="sidebar-widget">
-              <h3 class="sidebar-title">جستجو</h3>
+              <h3 class="sidebar-title">Search</h3>
               <div class="search-widget">
                 <form action="#">
-                  <input placeholder="جستجو ..." type="text" />
+                  <input
+                    placeholder="Search entire store here ..."
+                    type="text"
+                  />
                   <button type="submit">
                     <i class="ion-ios-search-strong"></i>
                   </button>
@@ -375,96 +368,96 @@
             <!-- Sidebar single item -->
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">دسته بندی ها</h3>
+              <h3 class="sidebar-title">Categories</h3>
               <div class="category-post">
                 <ul>
-                  <li><a href="#">لپ تاپ (20)</a></li>
-                  <li><a href="#">کنسول بازی (9)</a></li>
-                  <li><a href="#">دسته بازی (5)</a></li>
-                  <li><a href="#">کامپیوتر (11)</a></li>
-                  <li><a href="#">تکنولوژی (3)</a></li>
-                  <li><a href="#">لوازم جانبی (6)</a></li>
-                  <li><a href="#">کیبورد (4)</a></li>
+                  <li><a href="#">Dresses (20)</a></li>
+                  <li><a href="#">Jackets & Coats (9)</a></li>
+                  <li><a href="#">Sweaters (5)</a></li>
+                  <li><a href="#">Jeans (11)</a></li>
+                  <li><a href="#">Blouses & Shirts (3)</a></li>
+                  <li><a href="#">Electronic Cigarettes (6)</a></li>
+                  <li><a href="#">Bags & Cases (4)</a></li>
                 </ul>
               </div>
             </div>
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">مطالب اخیر</h3>
+              <h3 class="sidebar-title">Recent Post</h3>
 
               <div class="recent-post-widget">
                 <div class="recent-single-post d-flex">
                   <div class="thumb-side">
-                    <NuxtLink to="/blog-single-left-sidebar"
+                    <a href="blog-single-left-sidebar.html"
                       ><img src="assets/images/blog-image/blog-1.jpg" alt=""
-                    /></NuxtLink>
+                    /></a>
                   </div>
                   <div class="media-side">
                     <h5>
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی
-                      </NuxtLink>
+                      <a href="blog-single-left-sidebar.html"
+                        >This Is First Post For XipBlog
+                      </a>
                     </h5>
-                    <span class="date">16 آذر 1401</span>
+                    <span class="date">APRIL 24, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
                   <div class="thumb-side">
-                    <NuxtLink to="/blog-single-left-sidebar"
+                    <a href="blog-single-left-sidebar.html"
                       ><img src="assets/images/blog-image/blog-2.jpg" alt=""
-                    /></NuxtLink>
+                    /></a>
                   </div>
                   <div class="media-side">
                     <h5>
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی
-                      </NuxtLink>
+                      <a href="blog-single-left-sidebar.html"
+                        >This Is Secound Post For XipBlog
+                      </a>
                     </h5>
-                    <span class="date">16 آذر 1401</span>
+                    <span class="date">APRIL 25, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
                   <div class="thumb-side">
-                    <NuxtLink to="/blog-single-left-sidebar"
+                    <a href="blog-single-left-sidebar.html"
                       ><img src="assets/images/blog-image/blog-3.jpg" alt=""
-                    /></NuxtLink>
+                    /></a>
                   </div>
                   <div class="media-side">
                     <h5>
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی
-                      </NuxtLink>
+                      <a href="blog-single-left-sidebar.html"
+                        >This Is Third Post For XipBlog
+                      </a>
                     </h5>
-                    <span class="date">16 آذر 1401</span>
+                    <span class="date">APRIL 26, 2020</span>
                   </div>
                 </div>
                 <div class="recent-single-post d-flex">
                   <div class="thumb-side m-0px">
-                    <NuxtLink to="/blog-single-left-sidebar"
+                    <a href="blog-single-left-sidebar.html"
                       ><img src="assets/images/blog-image/blog-4.jpg" alt=""
-                    /></NuxtLink>
+                    /></a>
                   </div>
                   <div class="media-side">
                     <h5>
-                      <NuxtLink to="/blog-single-left-sidebar"
-                        >لورم ایپسوم متن ساختگی با سادگی
-                      </NuxtLink>
+                      <a href="blog-single-left-sidebar.html"
+                        >This Is Fourth Post For XipBlog
+                      </a>
                     </h5>
-                    <span class="date">16 آذر 1401</span>
+                    <span class="date">APRIL 27, 2020</span>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Sidebar single item -->
             <div class="sidebar-widget mt-40px">
-              <h3 class="sidebar-title">برچسب ها</h3>
+              <h3 class="sidebar-title">Tags</h3>
 
               <div class="sidebar-widget-tag">
                 <ul>
-                  <li><a href="#">لپ تاپ</a></li>
-                  <li><a href="#">کنسول بازی</a></li>
-                  <li><a href="#">کامپیوتر</a></li>
-                  <li><a href="#">لوازم جانبی</a></li>
+                  <li><a href="#">Electronics</a></li>
+                  <li><a href="#">Audio & Video</a></li>
+                  <li><a href="#">Video Games</a></li>
+                  <li><a href="#">Camera & Photo</a></li>
                 </ul>
               </div>
             </div>

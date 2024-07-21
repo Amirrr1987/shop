@@ -1,64 +1,102 @@
+<script lang="ts">
+definePageMeta({
+  title: "About",
+  layout: "default",
+});
+</script>
 <template>
-      
-        <!-- Breadcrumb Area Start -->         
-        <div class="breadcrumb-area"> 
-            <div class="container"> 
-                <div class="row"> 
-                    <div class="col-md-12"> 
-                        <div class="breadcrumb-content"> 
-                            <ul class="nav"> 
-                                <li>
-                                    <NuxtLink to="/">صفحه اصلی</NuxtLink>
-                                </li>                                 
-                                <li>درباره ما</li>                                 
-                            </ul>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </div>             
-        </div>         
-        <!-- Breadcrumb Area End-->         
-        <!-- About Area Start -->         
-        <section class="about-area mtb-60px"> 
-            <div class="container"> 
-                <div class="row"> 
-                    <div class="col-lg-6"> 
-                        <div class="about-left-image mb-md-30px mb-lm-30px "> 
-                            <img src="assets/images/slider-image/sample-3.jpg" alt="" class="img-responsive"/> 
-                        </div>                         
-                    </div>                     
-                    <div class="col-lg-6"> 
-                        <div class="about-content"> 
-                            <div class="about-title"> 
-                                <h2>به فروشگاه روزر خوش آمدید</h2> 
-                            </div>                             
-                            <p class="mb-30px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p> 
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p> 
-                        </div>                         
-                    </div>                     
-                </div>                 
-                <div class="row mt-60px"> 
-                    <div class="col-md-4 mb-lm-30px"> 
-                        <div class="single-about"> 
-                            <h4>شرکت ما</h4> 
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p> 
-                        </div>                         
-                    </div>                     
-                    <div class="col-md-4 mb-lm-30px"> 
-                        <div class="single-about"> 
-                            <h4>تیم ما</h4> 
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p> 
-                        </div>                         
-                    </div>                     
-                    <div class="col-md-4"> 
-                        <div class="single-about"> 
-                            <h4>مجوز ما</h4> 
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p> 
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </div>             
-        </section>         
-        <!-- About Area End -->         
-      
+  <!-- Breadcrumb Area Start -->
+  <div class="breadcrumb-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="breadcrumb-content">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li>About Us</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Breadcrumb Area End-->
+  <!-- About Area Start -->
+  <section class="about-area mtb-60px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-left-image mb-md-30px mb-lm-30px">
+            <img
+              src="assets/images/slider-image/sample-3.jpg"
+              alt=""
+              class="img-responsive"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-content">
+            <div class="about-title">
+              <h2>Welcome To Rozer</h2>
+            </div>
+            <p class="mb-30px">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              aperiam fugit consequuntur voluptatibus ex sint iure in,
+              distinctio sed dolorem aspernatur veritatis repellendus dolorum
+              voluptate, animi libero officiis eveniet accusamus recusandae.
+              Temporibus amet ducimus sapiente voluptatibus autem dolorem magnam
+              quas, porro suscipit. Quibusdam culpa asperiores exercitationem
+              architecto quo, temporibus vel! porro suscipit. Quibusdam culpa
+              asperiores exercitationem architecto quo, temporibus vel!
+            </p>
+            <p>
+              Sint voluptatum beatae necessitatibus quos mollitia vero, optio
+              asperiores aut tempora iusto eum rerum, possimus, minus quidem ut
+              saepe laboriosam. Praesentium aperiam accusantium minus
+              repellendus accusamus neque iusto pariatur laudantium provident
+              quod recusandae exercitationem natus dignissimos, molestias
+              quibusdam doloremque eaque fugit molestiae modi quam unde. Error
+              est dolor facere.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-60px">
+        <div class="col-md-4 mb-lm-30px">
+          <div class="single-about">
+            <h4>Our Company</h4>
+            <p>
+              Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur
+              adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-lm-30px">
+          <div class="single-about">
+            <h4>Our Team</h4>
+            <p>
+              Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur
+              adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-about">
+            <h4>Testimonial</h4>
+            <p>
+              Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur
+              adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Area End -->
 </template>

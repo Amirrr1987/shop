@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "https://shop-client-amirmaghami.netlify.app/*"
-  to = "/*"
-  status = 200
