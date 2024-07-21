@@ -1,7 +1,6 @@
 <script lang="ts">
 definePageMeta({
   title: "About",
-  layout: "default",
 });
 </script>
 <template>
