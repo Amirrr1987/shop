@@ -1,8 +1,4 @@
-<script lang="ts">
-definePageMeta({
-  title: "About",
-});
-</script>
+<script lang="ts"></script>
 <template>
   <!-- Breadcrumb Area Start -->
   <div class="breadcrumb-area">
