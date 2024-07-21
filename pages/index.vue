@@ -1,17 +1,11 @@
 <script setup lang="ts">
-
 definePageMeta({
   title: "Home",
-  layout: 'home'
+  layout: "home",
 });
-
-
-
 </script>
 
 <template>
-
-
   <!-- Slider Start -->
   <div class="slider-area slider-height-1">
     <div class="hero-slider swiper-container">
@@ -10439,5 +10433,4 @@ definePageMeta({
     </div>
   </div>
   <!-- Banner Area End -->
-
 </template>

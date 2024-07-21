@@ -1,9 +1,4 @@
-<script lang="ts">
-definePageMeta({
-  title: "Contact",
-  layout: "default",
-});
-</script>
+<script lang="ts"></script>
 <template>
   <!-- Breadcrumb Area Start -->
   <div class="breadcrumb-area">

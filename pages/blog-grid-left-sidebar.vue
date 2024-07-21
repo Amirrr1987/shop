@@ -1,8 +1,5 @@
 <script lang="ts">
-definePageMeta({
-  title: "Blog grid left sidebar",
-  layout: "default",
-});
+
 </script>
 <template>
   <!-- Breadcrumb Area Start -->
